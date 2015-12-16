@@ -43,7 +43,7 @@ Often, we have a dataset with mixed Chinese: the simplified Chinese used in main
 
 {% highlight bash %}
 
-  opencc -i INPUT_FILE -o OUTPUT_FILE
+opencc -i INPUT_FILE -o OUTPUT_FILE
 
 {% endhighlight %}
 
@@ -53,7 +53,7 @@ As mentioned above, parsing Chinese is a major obstacle in processing. Stanford 
 
 {% highlight bash %}
 
-  bash -x segment.sh ctb TEXT_FILE UTF-8 0
+bash -x segment.sh ctb TEXT_FILE UTF-8 0
 
 {% endhighlight %}
 
@@ -63,7 +63,7 @@ This is another major difficulty in processing. We used to deploy Jieba to deal 
 
 {% highlight bash %}
 
-  java -mx300m -cp "./*" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models/chinese-distsim.tagger -textFile
+java -mx300m -cp "./*" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models/chinese-distsim.tagger -textFile
 
 {% endhighlight %}
 
@@ -75,21 +75,21 @@ The demo.sh in the GLVOE directory provides a great example, so we can just modi
 
 {% highlight bash %}
 
-  CORPUS=text8                                    # set input file path
-  VOCAB_FILE=vocab.txt                            # set output vocabulary file path
-  COOCCURRENCE_FILE=cooccurrence.bin              
-  COOCCURRENCE_SHUF_FILE=cooccurrence.shuf.bin
-  BUILDDIR=build
-  SAVE_FILE=vectors                               # set output vector file path
-  VERBOSE=2           
-  MEMORY=4.0                                      # set the minimum memory size
-  VOCAB_MIN_COUNT=5                               # set the minimum word count
-  VECTOR_SIZE=50                                  # set the column size of the vector
-  MAX_ITER=15                                     # set the iteration time
-  WINDOW_SIZE=15                                  # set the window size of embedding
-  BINARY=2
-  NUM_THREADS=8
-  X_MAX=10
+CORPUS=text8                                    # set input file path
+VOCAB_FILE=vocab.txt                            # set output vocabulary file path
+COOCCURRENCE_FILE=cooccurrence.bin              
+COOCCURRENCE_SHUF_FILE=cooccurrence.shuf.bin
+BUILDDIR=build
+SAVE_FILE=vectors                               # set output vector file path
+VERBOSE=2           
+MEMORY=4.0                                      # set the minimum memory size
+VOCAB_MIN_COUNT=5                               # set the minimum word count
+VECTOR_SIZE=50                                  # set the column size of the vector
+MAX_ITER=15                                     # set the iteration time
+WINDOW_SIZE=15                                  # set the window size of embedding
+BINARY=2
+NUM_THREADS=8
+X_MAX=10
 
 {% endhighlight %}
 
@@ -103,7 +103,7 @@ Option 1: right format, but slower speed
 
 {% highlight bash %}
 
-	java -Xmx12g -cp "*:." -Xmx4g edu.stanford.nlp.pipeline.StanfordCoreNLP -file INPUT_FILE -props StanfordCoreNLP-chinese.properties -outputFormat text -parse.originalDependencies
+java -Xmx12g -cp "*:." -Xmx4g edu.stanford.nlp.pipeline.StanfordCoreNLP -file INPUT_FILE -props StanfordCoreNLP-chinese.properties -outputFormat text -parse.originalDependencies
 
 {% endhighlight %}
 
@@ -111,9 +111,9 @@ Option2: wrong format, but faster speed
 
 {% highlight bash %}
 
-	java -cp "./*" edu.stanford.nlp.parser.nndep.DependencyParser -model edu/stanford/nlp/models/parser/nndep/CTB_CoNLL_params.txt.gz -tagger.model edu/stanford/nlp/models/pos-tagger/chinese-distsim/chinese-distsim.tagger -sentenceDelimiter "。" -escaper edu.stanford.nlp.trees.international.pennchinese.ChineseEscaper -textFile INPUT_FILE -outFile OUTPUT_FILE
+java -cp "./*" edu.stanford.nlp.parser.nndep.DependencyParser -model edu/stanford/nlp/models/parser/nndep/CTB_CoNLL_params.txt.gz -tagger.model edu/stanford/nlp/models/pos-tagger/chinese-distsim/chinese-distsim.tagger -sentenceDelimiter "。" -escaper edu.stanford.nlp.trees.international.pennchinese.ChineseEscaper -textFile INPUT_FILE -outFile OUTPUT_FILE
 
-	java -cp "./\*" edu.stanford.nlp.parser.nndep.DependencyParser -props nndep.props -textFile $i -outFile output/`basename $i`.parsed
+java -cp "./*" edu.stanford.nlp.parser.nndep.DependencyParser -props nndep.props -textFile $i -outFile output/`basename $i`.parsed
 
 {% endhighlight %}
 
