@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Dev Notes by acEpor
+email:
+author:      acEpor
+description: "Yet another blog about NLP, machine learning and programming"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://acepor.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -13,7 +13,7 @@ google_verification:
 
 # Optional features
 animated:             false
-show_related_posts:   false
+show_related_posts:   true
 show_post_footers:    false
 show_social_icons:    false
 ajaxify_contact_form: false
@@ -24,15 +24,15 @@ disqus_shortname:
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments: 
-facebook_appid: 
+facebook_comments:
+facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: acepor
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: acepor
 google_plus_id:
 linkedin_username:
 angellist_username:
@@ -46,14 +46,14 @@ show_sharing_icons: false
 share_text: 'Share this post!'
 # Change to 'true' to enable individual icons
 share_facebook: false
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
+share_twitter: true
+share_googleplus: true
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
 share_stumbleupon: false
-share_hackernews: false
+share_hackernews: true
 
 # Build settings
 markdown:     kramdown
@@ -63,3 +63,6 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
+
+gems:
+- jekyll-paginate
