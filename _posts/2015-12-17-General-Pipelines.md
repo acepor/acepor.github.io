@@ -7,7 +7,7 @@ With a focus on processing Chinese textual data, we have been using different to
 
 ## A Brief Introduction of NLP on Chinese data
 
-Different from Latin languages, Chinese does not use any space as a delimiter or word boundary. For example, when we say 'We love co ding.' in English, there are three words with two spaces as delimiters, but in Chinese, we express the same idea as '我爱写代码。': four words with no space. In this sense, if we want to process Chinese data, we have to parse it first, which appears to be the major obstacle in NLP on Chinese data.
+Different from Latin languages, Chinese does not use any space as a delimiter or word boundary. For example, when we say 'We love co ding.' in English, there are three words with two spaces as delimiters, but in Chinese, we express the same idea as '我们爱写代码。': four words with no space. In this sense, if we want to process Chinese data, we have to parse it first, which appears to be the major obstacle in NLP on Chinese data.
 
 The following introduces the general procedures in Chinese processing:
 
