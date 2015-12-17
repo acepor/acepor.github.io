@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This blog aims to record my experiences of the transformation from an art student to a programmer.
+This blog aims to record my experiences of the transformation from an arts student to a programmer.
