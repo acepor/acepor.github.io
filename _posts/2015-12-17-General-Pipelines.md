@@ -21,9 +21,9 @@ The following introduces the general procedures in Chinese processing:
 
 ## A Brief Introduction of Stanford NLP software
 
-Stanford NLP software is a huge toolset: it has a number of individual components, such as [Stanford POS tagger](nlp.stanford.edu/software/tagger.shtml), and a combination of all these components - [Stanford CoreNLP](stanfordnlp.github.io/CoreNLP/). Due to its size, each tool has its own command. Hence, each document should be carefully read and studied. We have encountered numerous problems, so this note attempts to jot down the key steps in dealing those problems.
+Stanford NLP software is a huge toolset: it has a number of individual components, such as [Stanford POS tagger](nlp.stanford.edu/software/tagger.shtml), and a combination of all these components - [Stanford CoreNLP](stanfordnlp.github.io/CoreNLP/). Due to the complicated development, each tool has its own command. Hence, each document should be carefully read and studied. We have encountered numerous problems, so this note attempts to jot down the key steps in dealing those problems.
 
-Stanford NLP groups offers a brief FAQ for this toolset -- [Stanford Parser FAQ](http://nlp.stanford.edu/software/parser-faq.shtml), and a detailed Java document [Stanford JavaNLP API Documentation](http://nlp.stanford.edu/nlp/javadoc/javanlp/overview-summary.html).
+Stanford NLP group offers a brief FAQ for this toolset -- [Stanford Parser FAQ](http://nlp.stanford.edu/software/parser-faq.shtml), and a detailed Java document [Stanford JavaNLP API Documentation](http://nlp.stanford.edu/nlp/javadoc/javanlp/overview-summary.html).
 
 As stated on the above pages, especially these three points should be borne in mind:
 
