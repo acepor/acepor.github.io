@@ -11,15 +11,13 @@ Different from Latin languages, Chinese does not use any space as a delimiter or
 
 The following introduces the general procedures in Chinese processing:
 
-1. Converting traditional Chinese data to simplified Chinese, or vice versa.
+1. Parsing Chinese data into words
 
-2. Parsing Chinese data into words
+2. POS-tagging segmented Chinese data
 
-3. POS-tagging segmented Chinese data
+3. Generating word-embedding by GLOVE
 
-4. Generating word-embedding by GLOVE
-
-5. Generating dependency syntax trees
+4. Generating dependency syntax trees
 
 ## A Brief Introduction of Stanford NLP software
 
@@ -37,17 +35,7 @@ As stated on the above pages, especially these three points should be borne in m
 
 ## Major procedures of Chinese NLP engineering
 
-### 1. Converting traditional Chinese data to simplified Chinese
-
-Often, we have a dataset with mixed Chinese characters: the simplified Chinese used in mainland China, and the traditional Chin used in other areas. It is not a good idea to ignore the mixed usage, because it will bring further problems in the later processing. To overcome this, we use [opencc](https://github.com/BYVoid/OpenCC) by [BYVoid](opencc.byvoid.com/). It is relatively easy to use as it automatically detects the type of Chinese used in the data.
-
-{% highlight bash %}
-
-opencc -i INPUT_FILE -o OUTPUT_FILE
-
-{% endhighlight %}
-
-### 2. Parsing Chinese data into words
+### 1. Parsing Chinese data into words
 
 As mentioned above, parsing Chinese is a major obstacle in processing. Stanford NLP software provides [Stanford Word Segmenter](http://nlp.stanford.edu/software/segmenter.shtml) to tackle this problem. See [Stanford Segmenter FAQ](http://nlp.stanford.edu/software/segmenter-faq.shtml).
 
@@ -57,7 +45,7 @@ bash -x segment.sh ctb INPUT_FILE UTF-8 0
 
 {% endhighlight %}
 
-### 3. POS-tagging segmented Chinese data
+### 2. POS-tagging segmented Chinese data
 
 This is another major difficulty in processing. We used to deploy Jieba to deal with this problem. However, Jieba uses a dictioanry-based method to annotate POS tags, and each word has only one POS tag, which is less reasonable to a linguist. Imagine that 'book' in English has multiple senses: as a noun when referring an object to be read, or as a verb when referring the action of making an appointment. Nevertheless, if a POS parser assigns only one tag to the word 'book' regardless its sense, it does not make any sense. Luckily, [Stanford POS Tagger](http://nlp.stanford.edu/software/tagger.shtml) applies a different approach to handle this problem.
 
@@ -67,7 +55,7 @@ java -mx300m -cp "./*" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models
 
 {% endhighlight %}
 
-### 4. Generating word-embedding by GLOVE
+### 3. Generating word-embedding by GLOVE
 
 Deep learning is currently the hottest topic in NLP and machine learning. The key step is to generate a good word embedding. Stanford NLP group also provides a solution [GLOVE](nlp.stanford.edu/projects/glove), apart from Google's [Word2vec](https://code.google.com/p/word2vec/).
 
@@ -93,7 +81,7 @@ X_MAX=10
 
 {% endhighlight %}
 
-### 5. Generating dependency syntax trees
+### 4. Generating dependency syntax trees
 
 To understand sentences, POS-tags are far from enough, so we need more information, such as relationships between words. Stanford NLP group provides two supposed-to-be-good solutions: [The Stanford Parser: A statistical parser](http://nlp.stanford.edu/software/lex-parser.shtml), and [Neural Network Dependency Parser](http://nlp.stanford.edu/software/nndep.shtml). The first one provides the right dependency format, but the speed is terribly slow (one sentence per second), while the second one is speedy, but the dependency format is totally different from what they described in their paper [Discriminative reordering with Chinese grammatical relations features – acepor](http://www.aclweb.org/anthology/W09-2307). We emailed main authors of two parsers and several papers, and posed a request on [Stackoverflow](https://stackoverflow.com/questions/33294148/how-to-use-nndep-parser-in-stanford-parser-to-process-chinese-data), but it seems that no one can provide a workable solution to solve this 'tricky' dilemma.
 
