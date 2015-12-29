@@ -45,6 +45,8 @@ bash -x segment.sh ctb INPUT_FILE UTF-8 0
 
 {% endhighlight %}
 
+`ctb` is used to set the corpus. `ctb` is Chinese treebank, and another option is `pku`, referring to Peking University. `UTF-8` is used to set the encoding of the input file, and this parser also supports GB18310. The last `0` is used to set the size of the n-best list of the result, and 0 means only using the best result.
+
 ### 2. POS-tagging segmented Chinese data
 
 This is another major difficulty in processing. We used to deploy Jieba to deal with this problem. However, Jieba uses a dictioanry-based method to annotate POS tags, and each word has only one POS tag, which is less reasonable to a linguist. Imagine that 'book' in English has multiple senses: as a noun when referring an object to be read, or as a verb when referring the action of making an appointment. Nevertheless, if a POS parser assigns only one tag to the word 'book' regardless its sense, it does not make any sense. Luckily, [Stanford POS Tagger](http://nlp.stanford.edu/software/tagger.shtml) applies a different approach to handle this problem.
@@ -54,6 +56,8 @@ This is another major difficulty in processing. We used to deploy Jieba to deal 
 java -mx300m -cp "./*" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models/chinese-distsim.tagger -textFile INPUT_FILE
 
 {% endhighlight %}
+
+`-mx3000m` is used to set the max memory size, which can be set to meet your needs. `edu.stanford.nlp.tagger.maxent.MaxentTagger` is used to set the choice of the tagger, and here we use a Max Entropy tagger. `-model models/chinese-distsim.tagger` is used to set the language model.
 
 ### 3. Generating word-embedding by GLOVE
 
@@ -99,9 +103,7 @@ Option2: wrong format, but faster speed
 
 {% highlight bash %}
 
-java -cp "./*" edu.stanford.nlp.parser.nndep.DependencyParser -model edu/stanford/nlp/models/parser/nndep/CTB_CoNLL_params.txt.gz -tagger.model edu/stanford/nlp/models/pos-tagger/chinese-distsim/chinese-distsim.tagger -sentenceDelimiter "。" -escaper edu.stanford.nlp.trees.international.pennchinese.ChineseEscaper -textFile INPUT_FILE -outFile OUTPUT_FILE
-
-java -cp "./*" edu.stanford.nlp.parser.nndep.DependencyParser -props nndep.props -textFile $i -outFile output/`basename $i`.parsed
+java -cp "./*" edu.stanford.nlp.parser.nndep.DependencyParser -props nndep.props -textFile INPUT_FILE -outFile OUTPUT_FILE
 
 {% endhighlight %}
 
