@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Backreference in Python's re package
+title: Backreference in Python's re.sub function
 ---
 
 While regular expression is a widely-used technique in text processing, it seems a not-easy-to-learn technique. Often, an experienced programmer might find an unfamiliar point. I have been using regular expression in bash for several years, but when I switched to Python, I found it a totally new world. I finished reading the regular expression chapters in [_Beginning Python_](https://www.apress.com/9781590599822) by Magnus Lie and [_Core Python Programming 2nd ed_](http://corepython.com/) by Wesley Chun, but neither of them has mentioned the backreference mechanism in Python. In this post, we will discuss about backreference in Python, and will use the case in sed as illustration.
