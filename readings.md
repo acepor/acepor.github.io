@@ -8,8 +8,14 @@ Reading records
 
 #### 20160105
 
+[Data Structures and Algorithms in Python](http://book.douban.com/subject/10607365/)
+  Ch 3
+
+[美国，真的和你想的不一样](http://book.douban.com/subject/23694625/)
+  Ch 4, 5, 6, __Done__
+
 [Elon Musk](http://book.douban.com/subject/26372738/)
-	Ch 4
+	Ch 4, 5
 
 [等待卡帕](http://book.douban.com/subject/6894177/)
 	Ch 8
@@ -38,4 +44,3 @@ Reading records
 
 [Street Photography Now](http://book.douban.com/subject/5279388/)
 	Preface
-	
