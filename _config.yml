@@ -1,5 +1,6 @@
 # Site settings
 title:       Dev Notes by acEpor
+name:       Dev Notes by acEpor
 email:
 author:      acEpor
 description: "Yet another blog about NLP, machine learning and programming"
@@ -66,3 +67,7 @@ sass:
 
 gems:
 - jekyll-paginate
+- jekyll-feed
+
+feed:
+  path: atom.xml
