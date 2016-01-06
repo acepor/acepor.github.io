@@ -6,6 +6,17 @@ permalink: /readings/
 
 Reading records
 
+#### 20160106
+
+[Age of Ambition](http://book.douban.com/subject/25740186/)
+  Ch 2
+
+[乌合之众](http://book.douban.com/subject/4258830/)
+  Ch 1
+
+[Elon Musk](http://book.douban.com/subject/26372738/)
+  Ch 6
+
 #### 20160105
 
 [Data Structures and Algorithms in Python](http://book.douban.com/subject/10607365/)
