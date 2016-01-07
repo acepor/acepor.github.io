@@ -9,10 +9,10 @@ Reading records
 #### 20160106
 
 [Age of Ambition](http://book.douban.com/subject/25740186/)
-  Ch 2
+  Ch 2, 3
 
 [乌合之众](http://book.douban.com/subject/4258830/)
-  Ch 1
+  Ch 1, 2
 
 [Elon Musk](http://book.douban.com/subject/26372738/)
   Ch 6
