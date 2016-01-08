@@ -6,6 +6,11 @@ permalink: /readings/
 
 Reading records
 
+#### 20160107
+
+[Elon Musk](http://book.douban.com/subject/26372738/)
+  Ch 7, 8
+
 #### 20160106
 
 [Age of Ambition](http://book.douban.com/subject/25740186/)
