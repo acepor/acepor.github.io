@@ -6,6 +6,19 @@ permalink: /readings/
 
 Reading records
 
+#### 20160109
+
+[當代攝影的冒險](http://book.douban.com/subject/26374192/)
+  __Done__
+
+#### 20160108
+
+[乌合之众](http://book.douban.com/subject/4258830/)
+  Ch 3, 4
+
+[Age of Ambition](http://book.douban.com/subject/25740186/)
+  Ch 4
+
 #### 20160107
 
 [Elon Musk](http://book.douban.com/subject/26372738/)
