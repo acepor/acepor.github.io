@@ -53,11 +53,11 @@ This is another major difficulty in processing. We used to deploy Jieba to deal 
 
 {% highlight bash %}
 
-java -mx300m -cp "./*" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models/chinese-distsim.tagger -textFile INPUT_FILE
+java -mx3000m -cp "./*" edu.stanford.nlp.tagger.maxent.MaxentTagger -model models/chinese-distsim.tagger -textFile INPUT_FILE
 
 {% endhighlight %}
 
-`-mx3000m` is used to set the max memory size, which can be set to meet your needs. `edu.stanford.nlp.tagger.maxent.MaxentTagger` is used to set the choice of the tagger, and here we use a Max Entropy tagger. `-model models/chinese-distsim.tagger` is used to set the language model.
+`-mx3000m` is used to set the max memory size, which can be set to meet your needs. `edu.stanford.nlp.tagger.maxent.MaxentTagger` is used to set the choice of the tagger, and here we use a Max Entropy tagger. `-model models/chinese-distsim.tagger` is used to set the language model. The INPUT_FILE should be a segmented data file.
 
 ### 3. Generating word-embedding by GLOVE
 
