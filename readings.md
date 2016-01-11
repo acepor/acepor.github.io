@@ -12,7 +12,7 @@ Reading records
   Ch 5
 
 [Elon Musk](http://book.douban.com/subject/26372738/)
-  Ch 10
+  Ch 9
 
 #### 20160109
 
