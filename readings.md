@@ -6,6 +6,14 @@ permalink: /readings/
 
 Reading records
 
+#### 20160110
+
+[Age of Ambition](http://book.douban.com/subject/25740186/)
+  Ch 5
+
+[Elon Musk](http://book.douban.com/subject/26372738/)
+  Ch 10
+
 #### 20160109
 
 [當代攝影的冒險](http://book.douban.com/subject/26374192/)
