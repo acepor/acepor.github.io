@@ -8,6 +8,9 @@ Reading records
 
 #### 20160110
 
+[等待卡帕](http://book.douban.com/subject/6894177/)
+  Ch 9,
+
 [Age of Ambition](http://book.douban.com/subject/25740186/)
   Ch 5
 
