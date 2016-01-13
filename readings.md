@@ -6,7 +6,26 @@ permalink: /readings/
 
 Reading records
 
+#### 20160112
+
+[乌合之众](http://book.douban.com/subject/4258830/)
+  Ch 5
+
+[Elon Musk](http://book.douban.com/subject/26372738/)
+  Ch 10, 11
+
+#### 20160111
+
+[Age of Ambition](http://book.douban.com/subject/25740186/)
+  Ch 5
+
+[Advanced Analytics with Spark](http://book.douban.com/subject/26304113/) *
+  Appendix A
+
 #### 20160110
+
+[等待卡帕](http://book.douban.com/subject/6894177/)
+  Ch 9,
 
 [Age of Ambition](http://book.douban.com/subject/25740186/)
   Ch 5
@@ -45,7 +64,7 @@ Reading records
 
 #### 20160105
 
-[Data Structures and Algorithms in Python](http://book.douban.com/subject/10607365/)
+[Data Structures and Algorithms in Python](http://book.douban.com/subject/10607365/) *
   Ch 3
 
 [美国，真的和你想的不一样](http://book.douban.com/subject/23694625/)
