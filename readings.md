@@ -8,6 +8,9 @@ Reading records
 
 #### 20160114
 
+[Elon Musk](http://book.douban.com/subject/26372738/)
+	Epilogue, Appendix A, B, C, __Done__
+
 [Data Wrangling with Python](shop.oreilly.com/product/0636920032861.do)
 	Ch 7, 8
 
@@ -23,7 +26,6 @@ Reading records
 	Ch 3.1
 
 [Data Wrangling with Python](shop.oreilly.com/product/0636920032861.do)
-
 	Appendix A, B, C, D, E, F, Ch 3
 
 #### 20160112
