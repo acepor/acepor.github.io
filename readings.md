@@ -8,17 +8,18 @@ Reading records
 
 #### 20160115
 
-
+[等待卡帕](http://book.douban.com/subject/6894177/)
+	Ch 13, 14
 
 #### 20160114
 
 [等待卡帕](http://book.douban.com/subject/6894177/)
-	Ch 11
+	Ch 12
 
 [Elon Musk](http://book.douban.com/subject/26372738/)
 	Epilogue, Appendix A, B, C, __Done__
 
-[Data Wrangling with Python](shop.oreilly.com/product/0636920032861.do)
+[Data Wrangling with Python](shop.oreilly.com/product/0636920032861.do) *
 	Ch 7, 8
 
 [等待卡帕](http://book.douban.com/subject/6894177/)
@@ -32,7 +33,7 @@ Reading records
 [乌合之众](http://book.douban.com/subject/4258830/)
 	Ch 3.1
 
-[Data Wrangling with Python](shop.oreilly.com/product/0636920032861.do)
+[Data Wrangling with Python](shop.oreilly.com/product/0636920032861.do) *
 	Appendix A, B, C, D, E, F, Ch 3
 
 #### 20160112
