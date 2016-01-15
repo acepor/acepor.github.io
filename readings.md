@@ -6,7 +6,14 @@ permalink: /readings/
 
 Reading records
 
+#### 20160115
+
+
+
 #### 20160114
+
+[等待卡帕](http://book.douban.com/subject/6894177/)
+	Ch 11
 
 [Elon Musk](http://book.douban.com/subject/26372738/)
 	Epilogue, Appendix A, B, C, __Done__
