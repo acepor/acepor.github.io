@@ -3,6 +3,8 @@ layout: post
 title: 基于 Stanford NLP software 的中文文本预处理
 ---
 
+#### 本文已被[cos.name](http://cos.name/)转载：[http://cos.name/2016/01/intro-to-chinese-nlp/](http://cos.name/2016/01/intro-to-chinese-nlp/)
+
 作为一个处理自然语言的团队，我们在日常工作中要用到不同的工具来预处理中文文本，比如[Jieba](https://github.com/fxsjy/jieba)和[Stanford NLP software](http://nlp.stanford.edu/software/)。出于准确性和效率的考虑，我们选择了Stanford NLP software， 所以本文将介绍基于Stanford NLP software的中文文本预处理流程。
 
 ## 中文文本处理简要介绍
@@ -96,5 +98,3 @@ java -cp "./*" edu.stanford.nlp.parser.nndep.DependencyParser -props nndep.props
 ## 结论
 
 预处理中文文本并非易事，Stanford NLP小组对此作出了极大的贡献。我们的工作因而受益良多，所以我们非常感谢他们的努力。当然我们也期待 Stanford NLP software 能更上一层楼。
-
-##### 本文原载于 [https://acepor.github.io/2015/12/17/General-Pipelines/](https://acepor.github.io/2015/12/17/General-Pipelines/)

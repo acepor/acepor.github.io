@@ -1,7 +1,10 @@
 ---
 layout: post
 title: General Pipelines for Chinese NLP Engineering with Stanford NLP Software
+tags: [NLP, data_processing]
 ---
+
+#### The Chinese version of this article can be found [here](https://acepor.github.io/2015/12/22/Stanford-Cn/).
 
 With a focus on processing Chinese textual data, we have been using different tools extensively, namely [Jieba](https://github.com/fxsjy/jieba) and [Stanford NLP software](http://nlp.stanford.edu/software/). Either of them has its own advantages and drawbacks. To balance efficiency and accuracy, we eventually chose Stanford NLP software as our default toolset. Therefore, this post introduces some major procedures of processing Chinese textual data with the help of Stanford NLP software.
 
