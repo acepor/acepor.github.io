@@ -6,6 +6,19 @@ permalink: /readings/
 
 Reading records
 
+#### 20160117
+
+[決鬥寫真論](http://book.douban.com/subject/24866081/)
+	Ch 9, 10, 11, 12, 13, 14, __Done__
+
+#### 20160116
+
+[決鬥寫真論](http://book.douban.com/subject/24866081/)
+	Ch 5, 6, 7, 8
+
+[_等待卡帕_](http://book.douban.com/subject/6894177/)
+	Ch 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, __Done__
+
 #### 20160115
 
 [_等待卡帕_](http://book.douban.com/subject/6894177/)
