@@ -6,7 +6,12 @@ permalink: /readings/
 
 Reading records
 
-#### 2016011
+#### 2016019
+
+[控訴虛偽的影像敘事者：黛安‧阿巴斯](http://book.douban.com/subject/3311478/)
+	Ch 4, 5,
+
+#### 2016018
 
 [控訴虛偽的影像敘事者：黛安‧阿巴斯](http://book.douban.com/subject/3311478/)
 	Ch 1, 2, 3
