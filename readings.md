@@ -8,22 +8,22 @@ Reading records
 
 #### 2016019
 
-[控訴虛偽的影像敘事者：黛安‧阿巴斯](http://book.douban.com/subject/3311478/)
+[_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/)
 	Ch 4, 5,
 
 #### 2016018
 
-[控訴虛偽的影像敘事者：黛安‧阿巴斯](http://book.douban.com/subject/3311478/)
+[_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/)
 	Ch 1, 2, 3
 
 #### 20160117
 
-[決鬥寫真論](http://book.douban.com/subject/24866081/)
+[_決鬥寫真論_](http://book.douban.com/subject/24866081/)
 	Ch 9, 10, 11, 12, 13, 14, __Done__
 
 #### 20160116
 
-[決鬥寫真論](http://book.douban.com/subject/24866081/)
+[_決鬥寫真論_](http://book.douban.com/subject/24866081/)
 	Ch 5, 6, 7, 8
 
 [_等待卡帕_](http://book.douban.com/subject/6894177/)
