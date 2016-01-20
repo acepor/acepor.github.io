@@ -8,6 +8,9 @@ Reading records
 
 #### 20160120
 
+[_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/)
+	Ch 9
+
 [_東京漂流_](http://book.douban.com/subject/26417250/)
 	Ch 1, 2
 
