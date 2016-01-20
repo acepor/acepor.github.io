@@ -6,12 +6,20 @@ permalink: /readings/
 
 Reading records
 
-#### 2016019
+#### 20160120
+
+[_東京漂流_](http://book.douban.com/subject/26417250/)
+	Ch 1, 2
+
+#### 20160119
+
+[_我们这一代_](http://book.douban.com/subject/26288173/)
+	Ch 1, 2, 3, __Done__
 
 [_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/)
-	Ch 4, 5, 6
+	Ch 4, 5, 6, 7, 8
 
-#### 2016018
+#### 20160118
 
 [_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/)
 	Ch 1, 2, 3
