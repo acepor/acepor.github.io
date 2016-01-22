@@ -9,7 +9,7 @@ Reading records
 #### 20160121
 
 [_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/)
-	Ch 10, 11
+	Ch 10, 11, 12, 13
 
 #### 20160120
 
