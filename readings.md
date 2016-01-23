@@ -1,10 +1,13 @@
 ---
 layout: page
-title: Readings
+title: Reading records
 permalink: /readings/
 ---
 
-Reading records
+#### 20160123
+
+[_Age of Ambition_](http://book.douban.com/subject/25740186/)
+  Ch 6
 
 #### 20160122
 
