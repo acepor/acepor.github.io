@@ -4,6 +4,14 @@ title: Reading Notes
 permalink: /notes/
 ---
 
+>`黛安認為照相是很奇妙的經驗，因為照相得冒‘用別人觀看我們的方式來觀看自己’的風險。她已經跟相機泡太久了，所以她很清楚人民希望別人幫他他們拍攝的形象是它們自己也能接受的。` [_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/) P 
+
+>`光線到處都是，管線存在於所有的色彩裡：光線具有十分重要的心理意義。` [_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/) P 172
+
+>`藝術家碰會碰到的最危險的事情就是初出茅廬九倍當成大師，我因為做了某件我甚至不知道自己在幹嘛的事情而受到眾人膜拜。` [_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/) P 168
+
+>`‘他的名言是“如果你看見已經見過的東西，就不要按快門。”這句話黛安永誌不忘。’` [_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/) P 163
+
 >`看著那門口拘禁著無數生命，在黑暗中發出青白冷光的強化鋁籠子漸漸逝去，不知為何事喔聯想起了深夜的偷渡客。金屬的反光像兇器一樣，深深烙印在我的眼底。` [_東京漂流_](http://book.douban.com/subject/26417250/) P 44
 
 >`為了不讓自己貶值6，所以不想要長久留在室內空間：也因為如此，我不執著於物質。只要對物質有了執著，在家中開始堆積財物，水流就會被擋住而無法痛毆。也因為如此，我家不論經歷幾年，都還保持著當初仲介帶我來時的空曠。這麼冷清的房間，住起來當然不舒服。因為住起來不舒服，更成為不想在此長住的理由。` [_東京漂流_](http://book.douban.com/subject/26417250/) P 39
@@ -43,7 +51,9 @@ permalink: /notes/
 
 > `As I became more experienced, I began to understand that someone who is being photographed can work for only so long and that you shouldn't belabor the situation. something is either going to happen or it's not going to happen. It's not going to suddenly turn into something else. Or very rarely. what does happen a lot is that as soon as you say it's over, the subject will feel relieved and suddenly look great. And then you keep shooting.` [_Annie Leibovitz at Work_](https://www.goodreads.com/book/show/2897662-annie-leibovitz-at-work) P 214
 
-> `I believe that you are better to capture what you really see in color with digital. There's a distinctive intensity in a digital file. Digital gives a more honest view of how things actually look, and with the advent of all these possibilities, I still want the pictures to look like they're real. Whatever camera helps me do that is the camera I'm going to use. I'm not nostalgic about cameras. When I talk about how important the camera is to me. I mean the idea of the camera. What photographer does. I'm not into it because of the equipment, and I'm not concerned with the things that concern more technically acute people, I want use whatever helps me take a picture in all kinds of light with faster speed and fewer problems. I changed my 35mm camera four times a year. As soon as I hear there's a better one out, I try it.` [_Annie Leibovitz at Work_](https://www.goodreads.com/book/show/2897662-annie-leibovitz-at-work) P 207
+> `Whatever camera helps me do that is the camera I'm going to use. I'm not nostalgic about cameras. When I talk about how important the camera is to me. I mean the idea of the camera. What photographer does. I'm not into it because of the equipment, and I'm not concerned with the things that concern more technically acute people, I want use whatever helps me take a picture in all kinds of light with faster speed and fewer problems. I changed my 35mm camera four times a year. As soon as I hear there's a better one out, I try it.` [_Annie Leibovitz at Work_](https://www.goodreads.com/book/show/2897662-annie-leibovitz-at-work) P 207
+
+> `I believe that you are better to capture what you really see in color with digital. There's a distinctive intensity in a digital file. Digital gives a more honest view of how things actually look, and with the advent of all these possibilities, I still want the pictures to look like they're real.` [_Annie Leibovitz at Work_](https://www.goodreads.com/book/show/2897662-annie-leibovitz-at-work) P 207
 
 > `They were canned smiles. Forced. In the fifties, everything was supposed to be OK, although half the time it wasn't OK. It took me years to understand that I equated asking someone to smile with asking them to do something false.` [_Annie Leibovitz at Work_](https://www.goodreads.com/book/show/2897662-annie-leibovitz-at-work) P 168
 
