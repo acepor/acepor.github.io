@@ -4,6 +4,11 @@ title: Reading records
 permalink: /readings/
 ---
 
+#### 20160124
+
+[_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/)
+	Ch 15, 16
+
 #### 20160123
 
 [_Age of Ambition_](http://book.douban.com/subject/25740186/)
