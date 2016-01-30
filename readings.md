@@ -9,6 +9,11 @@ permalink: /readings/
 [_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/)
 	Ch 21, 22
 
+#### 20160126
+
+[_The Society of Mind_](http://book.douban.com/subject/1291194/)
+	Ch1
+
 #### 20160125
 
 [_Data Wrangling with Python_](shop.oreilly.com/product/0636920032861.do) *
