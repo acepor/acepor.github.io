@@ -4,6 +4,19 @@ title: Reading records
 permalink: /readings/
 ---
 
+#### 20160202
+
+[_落地_](http://book.douban.com/subject/10546083/)
+	Ch 7, 8, 9, 10, 11, 12, __Done__
+
+#### 20160201
+
+[_落地_](http://book.douban.com/subject/10546083/)
+	Ch 1, 2, 3, 4, 5, 6
+
+[_Street Photography Now_](http://book.douban.com/subject/5279388/)
+	Ch 1
+
 #### 20160131
 
 [_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/)
