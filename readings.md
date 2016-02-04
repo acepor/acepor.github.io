@@ -4,6 +4,11 @@ title: Reading records
 permalink: /readings/
 ---
 
+#### 20160204
+
+[_東京漂流_](http://book.douban.com/subject/26417250/)
+	Ch 3
+
 #### 20160203
 
 [_等待_](http://book.douban.com/subject/1547677/)
