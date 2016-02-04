@@ -4,6 +4,11 @@ title: Reading records
 permalink: /readings/
 ---
 
+#### 20160203
+
+[_等待_](http://book.douban.com/subject/1547677/)
+	Ch 1
+
 #### 20160202
 
 [_落地_](http://book.douban.com/subject/10546083/)
