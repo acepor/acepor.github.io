@@ -4,10 +4,31 @@ title: Reading records
 permalink: /readings/
 ---
 
+#### 20160211
+
+[_Managing Your Own Learning_](http://book.douban.com/subject/1691277/)
+	Ch 2, 3, 4, 5, 6
+
+[_等待_](http://book.douban.com/subject/26359044/)
+	Ch 3, __Done__
+
+#### 20160210
+
+[_人在纽约_](http://book.douban.com/subject/26325928/)
+	__Done__
+
+#### 20160208
+
+[_Managing Your Own Learning_](http://book.douban.com/subject/1691277/)
+	Ch 1
+
+[_等待_](http://book.douban.com/subject/26359044/)
+	Ch 2
+
 #### 20160205
 
-[_等待_](http://book.douban.com/subject/1547677/)
-	Ch 2, 3, 4, 5, 6, 7
+[_等待_](http://book.douban.com/subject/26359044/)
+	Ch 1
 
 #### 20160204
 
