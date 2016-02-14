@@ -4,7 +4,24 @@ title: Reading records
 permalink: /readings/
 ---
 
+#### 20160214
+
+[_東京漂流_](http://book.douban.com/subject/26417250/)
+	Ch 6
+
+#### 20160213
+
+[_设身@第五大道_](https://read.douban.com/column/129777/)
+	__Done__
+
+#### 20160212
+
+[_说部之乱_](http://book.douban.com/subject/26303224/)
+	__Done__
+
 #### 20160211
+
+[_说部之乱_](http://book.douban.com/subject/26303224/)
 
 [_Managing Your Own Learning_](http://book.douban.com/subject/1691277/)
 	Ch 2, 3, 4, 5, 6
