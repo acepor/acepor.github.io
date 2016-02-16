@@ -4,6 +4,11 @@ title: Reading records
 permalink: /readings/
 ---
 
+#### 20160216
+
+[_Data Wrangling with Python_](shop.oreilly.com/product/0636920032861.do) *
+	Ch 5
+
 #### 20160214
 
 [_東京漂流_](http://book.douban.com/subject/26417250/)
