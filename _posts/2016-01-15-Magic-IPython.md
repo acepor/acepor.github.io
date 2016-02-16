@@ -12,6 +12,8 @@ tags: [python, ipython]
 
 `%run`: If we write a python script in an IDE, and would like to test the whole script or just execute it, we can do this inside of IPython with the `%run` command.
 
+Although IPython accepts the `!python` to execute a python script, but this magic command is much shorter. Remember [Laziness Impatience Hubris](http://c2.com/cgi/wiki?LazinessImpatienceHubris, right? Laziness is a virtue.
+
 `%save`: This command can save logged IPython history to a file. The default destination is to the working directory.
 
 `%timeit`: Sometime, we would like to compare the efficiency of different functions. Although Python's `time` library might help, IPython provides a built-in solution for this problem. We can use `%timeit` to carry out the comparison. Suppose we have a function called `my_function`, we can test it as:
