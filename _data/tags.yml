@@ -10,5 +10,8 @@
 - slug: notes
   name: notes
 
+- slug: numpy
+  name: numpy
+
 - slug: python
   name: python
