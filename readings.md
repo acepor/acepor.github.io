@@ -4,10 +4,15 @@ title: Reading records
 permalink: /readings/
 ---
 
-#### 20160217
+#### 20160219
+
+[_The Society of Mind_](http://book.douban.com/subject/1291194/)
+	Ch 2, 3
+
+#### 20160218
 
 [_東京漂流_](http://book.douban.com/subject/26417250/)
-	Ch 9
+	Ch 9, 10
 
 #### 20160217
 
