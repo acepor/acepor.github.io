@@ -7,7 +7,7 @@ permalink: /readings/
 #### 20160222
 
 [_東京漂流_](http://book.douban.com/subject/26417250/)
-	Ch 11
+	Ch 11, 12
 
 #### 20160219
 
