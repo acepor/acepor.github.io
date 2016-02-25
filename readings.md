@@ -4,6 +4,16 @@ title: Reading records
 permalink: /readings/
 ---
 
+#### 20160225
+
+[_Practical Data Science Cookbook_](https://book.douban.com/subject/26194872/)
+	Ch6
+
+#### 20160223
+
+[_Practical Data Science Cookbook_](https://book.douban.com/subject/26194872/)
+	Ch1
+
 #### 20160222
 
 [_東京漂流_](http://book.douban.com/subject/26417250/)
