@@ -6,6 +6,11 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended';
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160229
+
+[_Practical Data Science Cookbook_](https://book.douban.com/subject/26194872/)
+	Ch11
+
 #### 20160227
 
 [_恶童日记 : 恶童三部曲1_](https://book.douban.com/subject/3315879/)
@@ -54,7 +59,7 @@ permalink: /readings/
 #### 20160213
 
 [_设身@第五大道_](https://read.douban.com/column/129777/)
-	__Done__
+	__Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
 
 #### 20160212
 
@@ -69,12 +74,12 @@ permalink: /readings/
 	Ch 2, 3, 4, 5, 6
 
 [_等待_](http://book.douban.com/subject/26359044/)
-	Ch 3, __Done__
+	Ch 3, __Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
 
 #### 20160210
 
 [_人在纽约_](http://book.douban.com/subject/26325928/)
-	__Done__
+	__Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
 
 #### 20160208
 
@@ -102,7 +107,7 @@ permalink: /readings/
 #### 20160202
 
 [_落地_](http://book.douban.com/subject/10546083/)
-	Ch 7, 8, 9, 10, 11, 12, __Done__
+	Ch 7, 8, 9, 10, 11, 12, __Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
 
 #### 20160201
 
@@ -115,7 +120,7 @@ permalink: /readings/
 #### 20160131
 
 [_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/)
-	Ch 28, 29, 30, 31, 32, __Done__
+	Ch 28, 29, 30, 31, 32, __Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
 
 #### 20160130
 
@@ -179,7 +184,7 @@ permalink: /readings/
 #### 20160119
 
 [_我们这一代_](http://book.douban.com/subject/26288173/)
-	Ch 1, 2, 3, __Done__
+	Ch 1, 2, 3, __Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
 
 [_控訴虛偽的影像敘事者：黛安‧阿巴斯_](http://book.douban.com/subject/3311478/)
 	Ch 4, 5, 6, 7, 8
@@ -192,7 +197,7 @@ permalink: /readings/
 #### 20160117
 
 [_決鬥寫真論_](http://book.douban.com/subject/24866081/)
-	Ch 9, 10, 11, 12, 13, 14, __Done__
+	Ch 9, 10, 11, 12, 13, 14, __Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
 
 #### 20160116
 
@@ -200,7 +205,7 @@ permalink: /readings/
 	Ch 5, 6, 7, 8
 
 [_等待卡帕_](http://book.douban.com/subject/6894177/)
-	Ch 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, __Done__
+	Ch 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, __Done__ <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle">
 
 #### 20160115
 
@@ -213,7 +218,7 @@ permalink: /readings/
 	Ch 12
 
 [_Elon Musk_](http://book.douban.com/subject/26372738/)
-	Epilogue, Appendix A, B, C, __Done__
+	Epilogue, Appendix A, B, C, __Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
 
 [_Data Wrangling with Python_](shop.oreilly.com/product/0636920032861.do) *
 	Ch 7, 8
@@ -265,7 +270,7 @@ permalink: /readings/
 #### 20160109
 
 [_當代攝影的冒險_](http://book.douban.com/subject/26374192/)
-  __Done__
+  __Done__ <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle">
 
 #### 20160108
 
@@ -297,7 +302,7 @@ permalink: /readings/
   Ch 3
 
 [_美国，真的和你想的不一样_](http://book.douban.com/subject/23694625/)
-  Ch 4, 5, 6, __Done__
+  Ch 4, 5, 6, __Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
 
 [_Elon Musk_](http://book.douban.com/subject/26372738/)
 	Ch 4, 5
