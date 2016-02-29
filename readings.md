@@ -3,7 +3,7 @@ layout: page
 title: Reading records
 permalink: /readings/
 ---
-<img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended';
+<img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
 #### 20160229
@@ -14,7 +14,7 @@ permalink: /readings/
 #### 20160227
 
 [_恶童日记 : 恶童三部曲1_](https://book.douban.com/subject/3315879/)
-	__Done__
+	__Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
 
 #### 20160225
 
