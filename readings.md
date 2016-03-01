@@ -6,10 +6,15 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160301
+
+[_Leaning Numpy Arrays_](https://www.packtpub.com/application-development/learning-numpy-array)
+	Ch1
+
 #### 20160229
 
 [_東京漂流_](http://book.douban.com/subject/26417250/)
-	Ch 14, 15 __Done__ <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> 
+	Ch 14, 15 __Done__ <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle">
 
 [_Practical Data Science Cookbook_](https://book.douban.com/subject/26194872/)
 	Ch11
