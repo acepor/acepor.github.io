@@ -8,6 +8,9 @@ permalink: /readings/
 
 #### 20160229
 
+[_東京漂流_](http://book.douban.com/subject/26417250/)
+	Ch 14, 15 __Done__ <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> 
+
 [_Practical Data Science Cookbook_](https://book.douban.com/subject/26194872/)
 	Ch11
 
@@ -15,6 +18,11 @@ permalink: /readings/
 
 [_恶童日记 : 恶童三部曲1_](https://book.douban.com/subject/3315879/)
 	__Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
+
+#### 20160226
+
+[_東京漂流_](http://book.douban.com/subject/26417250/)
+	Ch 13
 
 #### 20160225
 
