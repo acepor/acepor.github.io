@@ -11,6 +11,9 @@ permalink: /readings/
 [_Leaning Numpy Arrays_](https://www.packtpub.com/application-development/learning-numpy-array)
 	Ch1
 
+[_Street Photography Now_](http://book.douban.com/subject/5279388/)
+	Ch2
+
 #### 20160229
 
 [_東京漂流_](http://book.douban.com/subject/26417250/)
@@ -101,6 +104,11 @@ permalink: /readings/
 
 [_等待_](http://book.douban.com/subject/26359044/)
 	Ch 2
+
+#### 20160207
+
+[_乌合之众_](http://book.douban.com/subject/4258830/)
+	Ch 3.2, 3.3, 3.4, 3.5 __Done__
 
 #### 20160205
 
