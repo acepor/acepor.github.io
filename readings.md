@@ -6,6 +6,16 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160303
+
+[_走出荒野_](https://book.douban.com/subject/20492902/)
+	Ch 2, 3
+
+#### 20160302
+
+[_走出荒野_](https://book.douban.com/subject/20492902/)
+	Ch 1
+
 #### 20160301
 
 [_Leaning Numpy Arrays_](https://www.packtpub.com/application-development/learning-numpy-array)
