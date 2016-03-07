@@ -6,6 +6,19 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160306
+
+[_走出荒野_](https://book.douban.com/subject/20492902/)
+	Ch 4
+
+[_Street Photography Now_](http://book.douban.com/subject/5279388/)
+	Ch 4
+
+#### 20160305
+
+[_Street Photography Now_](http://book.douban.com/subject/5279388/)
+	Ch 3
+
 #### 20160303
 
 [_走出荒野_](https://book.douban.com/subject/20492902/)
@@ -19,10 +32,10 @@ permalink: /readings/
 #### 20160301
 
 [_Leaning Numpy Arrays_](https://www.packtpub.com/application-development/learning-numpy-array)
-	Ch1
+	Ch 1
 
 [_Street Photography Now_](http://book.douban.com/subject/5279388/)
-	Ch2
+	Ch 2
 
 #### 20160229
 
@@ -30,7 +43,7 @@ permalink: /readings/
 	Ch 14, 15 __Done__ <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle">
 
 [_Practical Data Science Cookbook_](https://book.douban.com/subject/26194872/)
-	Ch11
+	Ch 11
 
 #### 20160227
 
@@ -45,12 +58,12 @@ permalink: /readings/
 #### 20160225
 
 [_Practical Data Science Cookbook_](https://book.douban.com/subject/26194872/)
-	Ch6
+	Ch 6
 
 #### 20160223
 
 [_Practical Data Science Cookbook_](https://book.douban.com/subject/26194872/)
-	Ch1
+	Ch 1
 
 #### 20160222
 
