@@ -11,10 +11,20 @@ permalink: /readings/
 [_走出荒野_](https://book.douban.com/subject/20492902/)
 	Ch 4
 
+<<<<<<< HEAD
 #### 20160305
 
 [_Street Photography Now_](http://book.douban.com/subject/5279388/)
 		Ch 3
+=======
+[_Street Photography Now_](http://book.douban.com/subject/5279388/)
+	Ch 4
+
+#### 20160305
+
+[_Street Photography Now_](http://book.douban.com/subject/5279388/)
+	Ch 3
+>>>>>>> origin/master
 
 #### 20160303
 
