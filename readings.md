@@ -6,6 +6,11 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160316
+
+[_走出荒野_](https://book.douban.com/subject/20492902/)
+	Ch 5 __Done__
+
 #### 20160306
 
 [_走出荒野_](https://book.douban.com/subject/20492902/)
