@@ -6,6 +6,11 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160317
+
+[_Dreaming in Code_](https://book.douban.com/subject/1957932/)
+	Ch 0, 1, 2
+
 #### 20160316
 
 [_走出荒野_](https://book.douban.com/subject/20492902/)
