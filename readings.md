@@ -8,8 +8,11 @@ permalink: /readings/
 
 #### 20160406
 
+[_Theory of Fun for Game Design_](https://book.douban.com/subject/25762353)
+	Ch 3, 4, 5, 6, 7, 8
+
 [_Ambient Commons_](https://book.douban.com/subject/20482660/)
-	Ch 1, 2
+	Ch 1, 2, 3
 
 #### 20160331
 
