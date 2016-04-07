@@ -6,6 +6,14 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160407
+
+[_Theory of Fun for Game Design_](https://book.douban.com/subject/25762353)
+	Ch 9, 10, 11, 12 __Done__ <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
+
+[_Ambient Commons_](https://book.douban.com/subject/20482660/)
+	Ch 4
+
 #### 20160406
 
 [_Theory of Fun for Game Design_](https://book.douban.com/subject/25762353)
