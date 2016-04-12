@@ -6,11 +6,26 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160412
+
+[_Soft Skills_](https://book.douban.com/subject/26312275/)
+	Ch 5, 6, 7, 8, 9
+
+#### 20160409
+
+[_Soft Skills_](https://book.douban.com/subject/26312275/)
+	Ch 5
+
+[_Ambient Commons_](https://book.douban.com/subject/20482660/)
+	Ch 5
+
 #### 20160408
+
+[_Soft Skills_](https://book.douban.com/subject/26312275/)
+	Ch 1, 2, 3, 4
 
 [_活着活着就老了_](https://book.douban.com/subject/3018322/)
 	__Done__ <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle">
-
 
 #### 20160407
 
