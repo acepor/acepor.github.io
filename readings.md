@@ -9,7 +9,12 @@ permalink: /readings/
 #### 20160412
 
 [_Soft Skills_](https://book.douban.com/subject/26312275/)
-	Ch 5, 6, 7, 8, 9
+	Ch 13, 14, 15, 16
+
+#### 20160412
+
+[_Soft Skills_](https://book.douban.com/subject/26312275/)
+	Ch 5, 6, 7, 8, 9, 10, 11, 12
 
 #### 20160409
 
