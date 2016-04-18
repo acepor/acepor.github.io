@@ -6,6 +6,16 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160416
+
+[_Soft Skills_](https://book.douban.com/subject/26312275/)
+	Ch 43, 44, 45, 46
+
+#### 20160415
+
+[_Soft Skills_](https://book.douban.com/subject/26312275/)
+	Ch 33, 34, 35, 36, 37, 38, 39, 40, 41, 42
+
 #### 20160415
 
 [_Soft Skills_](https://book.douban.com/subject/26312275/)
