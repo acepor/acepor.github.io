@@ -29,7 +29,12 @@ permalink: /readings/
 #### 20160415
 
 [_Soft Skills_](https://book.douban.com/subject/26312275/)
-	Ch 23, 24, 25, 26, 27, 28, 29, 30, 31, 32
+	Ch 34, 35
+
+#### 20160415
+
+[_Soft Skills_](https://book.douban.com/subject/26312275/)
+	Ch 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33
 
 #### 20160414
 
