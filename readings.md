@@ -9,6 +9,11 @@ permalink: /readings/
 #### 20160419
 
 [_Soft Skills_](https://book.douban.com/subject/26312275/)
+	Ch 53, 54
+
+#### 20160419
+
+[_Soft Skills_](https://book.douban.com/subject/26312275/)
 	Ch 51, 52
 
 #### 20160418
