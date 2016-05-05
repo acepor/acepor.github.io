@@ -6,6 +6,24 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160430
+
+[_窺視_](https://book.douban.com/subject/26434710/) <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
+	__Done__
+
+#### 20160423
+
+[_斯波克育儿经_](https://book.douban.com/subject/26657165/) <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
+	__Done__
+
+#### 20160421
+
+[_SCHOOLGIRL COMPLEX 2 放課後_](https://book.douban.com/subject/19975345/) <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle">
+	__Done__
+
+[_Soft Skills_](https://book.douban.com/subject/26312275/) <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> 
+	__Done__
+
 #### 20160419
 
 [_Soft Skills_](https://book.douban.com/subject/26312275/)
