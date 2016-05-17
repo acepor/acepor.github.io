@@ -6,6 +6,16 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160517
+
+[Designing Products People Love](https://book.douban.com/subject/26707399/)
+	Ch 5
+
+#### 20160516
+
+[Designing Products People Love](https://book.douban.com/subject/26707399/)
+	Preface, Ch 1, 2, 3, 4
+
 #### 20160505
 
 [_The Iron Wall_](https://book.douban.com/subject/26471566/)
