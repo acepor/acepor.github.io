@@ -6,6 +6,15 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20160527
+
+[代码之髓](https://book.douban.com/subject/25927585/)
+
+#### 20160525
+
+[科技想要什么](https://book.douban.com/subject/6965746/)
+	Ch 7, 8
+
 #### 20160519
 
 [科技想要什么](https://book.douban.com/subject/6965746/)
