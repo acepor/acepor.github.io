@@ -4,17 +4,9 @@ title: Reading Files into Pandas
 tags: [python, pandas]
 ---
 
+
+
 {% highlight python %}
-
-def get_column_index(column, col_list):
-    """
-    :param column: the COLUMN_CHAT constant
-    :param col_list: define wanted columns here
-    :return: a list of indices
-    """
-    col_index_dic = {v: k for (k, v) in enumerate(column)}
-    return [int(col_index_dic[col]) for col in col_list]
-
 
 def csv2pd(in_file, column_constant, column_names, sep=",", quote=3, engine='python'):
     """
@@ -30,13 +22,33 @@ def csv2pd(in_file, column_constant, column_names, sep=",", quote=3, engine='pyt
     column_indices = get_column_index(column=column_constant, col_list=column_names)
     return pd.read_csv(in_file, usecols=column_indices, sep=sep, quoting=quote, engine=engine)
 
+{% endhighlight %}
+
+
+{% highlight python %}
+
+def get_column_index(column, col_list):
+    """
+    :param column: the COLUMN_CHAT constant
+    :param col_list: define wanted columns here
+    :return: a list of indices
+    """
+    col_index_dic = {v: k for (k, v) in enumerate(column)}
+    return [int(col_index_dic[col]) for col in col_list]
+
+{% endhighlight %}
+
+{% highlight python %}
 
 def get_header(in_file, sep=","):
     in_file = open(in_file)
     result = next(in_file).strip('\n\r').split(sep)
     in_file.close()
     return result
+    
+{% endhighlight %}
 
+{% highlight python %}
 
 def quickest_read_csv(in_file, column_names):
     """
