@@ -1,3 +1,8 @@
+---
+layout: post
+title: Reading Files into Pandas
+tags: [python, pandas]
+---
 
 {% highlight python %}
 
