@@ -1,3 +1,6 @@
+
+{% highlight python %}
+
 def get_column_index(column, col_list):
     """
     :param column: the COLUMN_CHAT constant
@@ -37,3 +40,5 @@ def quickest_read_csv(in_file, column_names):
     data = csv2pd(column_constant=get_header(in_file), column_names=column_names, engine='c',
                   in_file=in_file, quote=0, sep=',')
     return data
+
+{% endhighlight %}
