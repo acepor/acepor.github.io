@@ -44,7 +44,7 @@ def get_header(in_file, sep=","):
 
 {% highlight python %}
 
-def get_column_index(col_list, column=get_column_index()):
+def get_column_index(col_list, column):
     """
     :param column: the COLUMN_CHAT constant
     :param col_list: define wanted columns here
