@@ -77,13 +77,9 @@ layout: default
 {% endif %}
 
 {% if site.show_related_posts %}
-<<<<<<< HEAD
-  <h3 class="related-post-title">Related Posts</h3>
   {% for post in site.related_posts limit:3 %}
-=======
   <h3 class="related-post-title">{{ site.text.post.related_posts }}</h3>
   {% for post in site.related_posts %}
->>>>>>> johnotander/master
     <div class="post ml2">
       <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
         <h4 class="post-title">{{ post.title }}</h4>

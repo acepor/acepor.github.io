@@ -9,10 +9,7 @@ url:         "http://acepor.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
-<<<<<<< HEAD
 google_analytics: UA-71424188-1
-=======
->>>>>>> johnotander/master
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
@@ -34,7 +31,7 @@ enable_anchorjs: false
 # Facebook Page integration
 # (for instant articles and other stuff)
 fb_page: false
-fb_page_id: 
+fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
@@ -50,13 +47,10 @@ facebook_comments_number: 10
 github_username: acepor
 bitbucket_username:
 stackoverflow_id:
-<<<<<<< HEAD
 twitter_username: acepor
-=======
 twitter_username:
 skype_username:
 steam_nickname:
->>>>>>> johnotander/master
 google_plus_id:
 linkedin_username:
 angellist_username:
@@ -119,7 +113,6 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
-<<<<<<< HEAD
 
 gems:
 - jekyll-paginate
@@ -127,10 +120,8 @@ gems:
 
 feed:
   path: atom.xml
-=======
 gems:
   - jekyll-paginate
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
->>>>>>> johnotander/master

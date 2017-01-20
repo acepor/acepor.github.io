@@ -56,6 +56,15 @@ Bt default, this method use Python code to interpret CSV data; however, this sol
 
 {% highlight python %}
 
+def get_column_index(column, col_list):
+    """
+    :param column: the COLUMN_CHAT constant
+    :param col_list: define wanted columns here
+    :return: a list of indices
+    """
+    col_index_dic = {v: k for (k, v) in enumerate(column)}
+    return [int(col_index_dic[col]) for col in col_list]
+
 def csv2pd(in_file, column_constant, column_names, sep=",", quote=3, engine='c'):
     """
     use Function get_column_index to get a list of column indices
