@@ -8,9 +8,9 @@ Pandas is an awesome Python package for manipulating data. It provides various t
 
 ## `pandas.read_csv`
 
-`pandas.read_csv` is a convenient tool in pandas to handle csv file importing; however, it is not very intuitive as it supposes to be. It can use either Python or C engine to parse data, and the C engine is much more efficient than the default Python engine.
+`pandas.read_csv` is a convenient tool in pandas to handle CSV file importing; however, it is not very intuitive as it supposes to be. It can use either Python or C engine to parse data, and the C engine is much more efficient than the default Python engine.
 
-According to the [doc](http://pandas.pydata.org/pandas-docs/stable/io.html#basic), `pandas.read_csv` contains four basic parameters: `filepath_or_buffer`, `sep`, `delimiter` and `delim_whitespace`. The most important parameter here is `sep`: if the `sep` is set to be a comma, pandas can use the C engine to increase the reading speed, otherwise, the `sep` will be regarded as a regular expression string, and pandas can only use the default Python engine to parse.
+According to the [doc](http://pandas.pydata.org/pandas-docs/stable/io.html#basic), `pandas.read_csv` contains four basic parameters: `filepath_or_buffer`, `sep`, `delimiter` and `delim_whitespace`. Here, the most important parameter is `sep`: if the `sep` is set to be a comma, pandas can use the C engine to increase the reading speed; otherwise, the `sep` will be regarded as a regular expression string, and pandas can only use the default Python engine to parse.
 
 Reading a 471MB CSV file containing 5,023,382 lines of data into pandas, with the help of `C` engine, the time cost reduces more than 50%.
 
@@ -26,11 +26,11 @@ Wall time: 38.6 s
 
 {% endhighlight %}
 
-Another trick to increase reading speed and reduce memory use  is to read columns only needed. However, this is not very easy to do `pandas.read_csv`. The [doc](http://pandas.pydata.org/pandas-docs/stable/io.html#column-and-index-locations-and-names) `usecols`:
+Another trick to increase reading speed and reduce memory use  is to read columns only needed. However, this is not very easy to do with `pandas.read_csv`. The [doc](http://pandas.pydata.org/pandas-docs/stable/io.html#column-and-index-locations-and-names) states that `usecols` as:
 
->Return a subset of the columns. All elements in this array must either be positional (i.e. integer indices into the document columns) or strings that correspond to column names provided either by the user in `names` or inferred from the document header row(s).
+> Return a subset of the columns. All elements in this array must either be positional (i.e. integer indices into the document columns) or strings that correspond to column names provided either by the user in `names` or inferred from the document header row(s).
 
-Put it simple, we need provide the index of the columns to select the needed columns. Suppose the CSV file has many columns, and we only have to pick few of them, counting the index is not a realistic way to do so. Therefore I wrote two functions to solve this problem: using `get_header` to fetch the header of a CSV file, and use `get_column_index` to fetch the index of needed columns.
+Put it simple, we need provide the index of the columns to select the needed columns. Suppose the CSV file has many columns, and we only have to pick few of them, counting the index is not a realistic way to do so. Therefore two functions are used to solve this problem: using `get_header` to fetch the header of a CSV file, and use `get_column_index` to fetch the index of needed columns.
 
 {% highlight python %}
 
@@ -55,7 +55,7 @@ def get_column_index(col_list, column=get_column_index()):
 
 {% endhighlight %}
 
-Combining them together, I can get the index of needed columns, and pass it to `usecols` options in `pandas.read_csv` function. This simplifies the whole process.
+Combining them together, we can get the index of needed columns, and pass it to `usecols` options in `pandas.read_csv` function. This simplifies the whole process.
 
 {% highlight python %}
 
@@ -77,6 +77,11 @@ def csv2pd(in_file, column_constant, column_names, sep=",", quote=3, engine='pyt
 
 Sometimes, CSV files may contain quotation marks to reduces errors, but this may confuse `pandas.read_csv`. If so, we need demonstrate the quotation with the `quoting` option.
 
+In the [doc](http://pandas.pydata.org/pandas-docs/stable/io.html#quoting-compression-and-file-format), `quoting` has four choices:
+
+> Use one of QUOTE_MINIMAL (0), QUOTE_ALL (1), QUOTE_NONNUMERIC (2) or QUOTE_NONE (3).
+
+Therefore, we can set `sep` as comma, `quoting` as 0 and `engine` to C engine as default setting in `pandas.read_csv`:
 
 {% highlight python %}
 
@@ -93,7 +98,7 @@ def quickest_read_csv(in_file, column_names):
 ## `pandas.read_json`
 
 
-Using `pandas` to read JSON file is a new function in the version 0.12, and the `pandas.read_json` is very powerful now.
+Using `pandas` to read JSON file is a new function in the version 0.12, and the `pandas.read_json` is a very powerful tool now.
 
 By default, `pandas.read_json` supports the following JSON string formats:
 
