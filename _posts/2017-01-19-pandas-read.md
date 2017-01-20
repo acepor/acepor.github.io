@@ -4,6 +4,7 @@ title: Reading Files into Pandas
 tags: [python, pandas]
 ---
 
+Pandas is an awesome Python package for manipulating data. It provides various tools to import data. In our daily job, CSV and JSON files are the most common data format to deal with.
 
 
 {% highlight python %}
@@ -38,6 +39,7 @@ def get_column_index(column, col_list):
 
 {% endhighlight %}
 
+
 {% highlight python %}
 
 def get_header(in_file, sep=","):
@@ -47,6 +49,7 @@ def get_header(in_file, sep=","):
     return result
     
 {% endhighlight %}
+
 
 {% highlight python %}
 
