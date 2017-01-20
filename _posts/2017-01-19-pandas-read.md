@@ -75,6 +75,7 @@ def csv2pd(in_file, column_constant, column_names, sep=",", quote=3, engine='pyt
 
 {% endhighlight %}
 
+Sometimes, CSV files may contain quotation marks to reduces errors, but this may confuse `pandas.read_csv`. If so, we need demonstrate the quotation with the `quoting` option.
 
 
 {% highlight python %}
@@ -90,6 +91,23 @@ def quickest_read_csv(in_file, column_names):
 {% endhighlight %}
 
 ## `pandas.read_json`
+
+
+Using `pandas` to read JSON file is a new function in the version 0.12, and the `pandas.read_json` is very powerful now.
+
+By default, `pandas.read_json` supports the following JSON string formats:
+
+{% highlight python %}
+
+split	dict like {index -> [index], columns -> [columns], data -> [values]}
+records	list like [{column -> value}, ... , {column -> value}]
+index	dict like {index -> {column -> value}}
+columns	dict like {column -> {index -> value}}
+values	just the values array
+
+{% endhighlight %}
+
+However, sometimes, we need to deal with line-based JSON file, so we need to set `lines` as True.
 
 {% highlight python %}
 
