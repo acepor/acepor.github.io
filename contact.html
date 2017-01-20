@@ -15,9 +15,15 @@ tags: contact
     </form>
   {% else %}
 <<<<<<< HEAD
+<<<<<<< HEAD
     <form action="http://formspree.io/acepor@vista.aero" method="POST" class="form-stacked">
       <input type="text" name="email" class="field-light" placeholder="Email Address">
       <textarea type="text" name="content" class="field-light" rows="5" placeholder="What would you like to say?"></textarea>
+=======
+    <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
+      <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">
+      <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content }}" style="resize: vertical"></textarea>
+>>>>>>> johnotander/master
 =======
     <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
       <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">

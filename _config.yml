@@ -9,7 +9,10 @@ url:         "http://acepor.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
+<<<<<<< HEAD
 google_analytics: UA-71424188-1
+=======
+>>>>>>> johnotander/master
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
@@ -31,7 +34,11 @@ enable_anchorjs: false
 # Facebook Page integration
 # (for instant articles and other stuff)
 fb_page: false
+<<<<<<< HEAD
 fb_page_id:
+=======
+fb_page_id: 
+>>>>>>> johnotander/master
 
 # Disqus post comments
 # (leave blank to disable Disqus)
@@ -105,6 +112,39 @@ text:
   thanks: 'Thanks for contacting us. We will reply as soon as possible.'
   og_locale: 'en_US'
 
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  og_locale: 'en_US'
+
 # Build settings
 markdown:     kramdown
 redcarpet:
@@ -113,6 +153,7 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
+<<<<<<< HEAD
 
 gems:
 - jekyll-paginate
@@ -120,6 +161,8 @@ gems:
 
 feed:
   path: atom.xml
+=======
+>>>>>>> johnotander/master
 gems:
   - jekyll-paginate
   - jekyll-sitemap
