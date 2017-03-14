@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using CRF in Python
-tags: [NLP, data\_processing, algorithm]
+tags: [NLP, data_processing, algorithm]
 ---
 
 CRF (Conditional Random Fields) has been a popular supervised learning method before deep learning occurred, and still, it is a easy-to-use and robust machine learning algorithm. We recently used this algorithm to do NER (name entity   recognition), and here is a brief summary of using CRF in Python.
@@ -21,20 +21,22 @@ The `sklearn-crfsuite`’s tutorial can be found at [github][6]. It is easy to f
 Based on [python-crfsuite][7], [sklearn-crfsuite][8] also uses dictionary as the default feature format. 
 
 {% highlight python %}
+
  {'+1:postag': 'Fpa',
-'+1:postag[:2]()': 'Fp',
+'+1:postag[:2]': 'Fp',
 '+1:word.istitle()': False,
  '+1:word.isupper()': False,
  '+1:word.lower()': '(',
  'BOS': True,
  'bias': 1.0,
  'postag': 'NP',
- 'postag[:2]()': 'NP',
+ 'postag[:2]': 'NP',
  'word.isdigit()': False,
  'word.istitle()': True,
  'word.isupper()': False,
  'word.lower()': 'melbourne',
- ‘word[-2:]()': 'ne'}
+ ‘word[-2:]': 'ne'}
+
 {% endhighlight %}
 
 Note, it does not support `pandas` DataFrame format as feature format.
@@ -43,45 +45,45 @@ In the sklearn-crfsuite, it puts all features in a function, which is very diffi
 
 {% highlight python %}
 def word2features(sent, i):
-word = sent[i]()[0]()
-postag = sent[i]()[1]()
+    word = sent[i][0]
+    postag = sent[i][1]
 
-features = {
-'bias': 1.0,
-'word.lower()': word.lower(),
-'word[-3:]()': word[-3:](),
-'word[-2:]()': word[-2:](),
-'word.isupper()': word.isupper(),
-'word.istitle()': word.istitle(),
-'word.isdigit()': word.isdigit(),
-'postag': postag,
-'postag[:2]()': postag[:2](),  
-}
-if i \> 0:
-word1 = sent[i-1]()[0]()
-postag1 = sent[i-1]()[1]()
-features.update({
-'-1:word.lower()': word1.lower(),
-'-1:word.istitle()': word1.istitle(),
-'-1:word.isupper()': word1.isupper(),
-'-1:postag': postag1,
-'-1:postag[:2]()': postag1[:2](),
-})
-else:
-features['BOS']() = True
+    features = {
+    'bias': 1.0,
+    'word.lower()': word.lower(),
+    'word[-3:]': word[-3:],
+    'word[-2:]': word[-2:],
+    'word.isupper()': word.isupper(),
+    'word.istitle()': word.istitle(),
+    'word.isdigit()': word.isdigit(),
+    'postag': postag,
+    'postag[:2]': postag[:2],  
+    }
+    if i > 0:
+    word1 = sent[i-1][0]
+    postag1 = sent[i-1][1]
+    features.update({
+    '-1:word.lower()': word1.lower(),
+    '-1:word.istitle()': word1.istitle(),
+    '-1:word.isupper()': word1.isupper(),
+    '-1:postag': postag1,
+    '-1:postag[:2]': postag1[:2],
+    })
+    else:
+    features['BOS'] = True
 
-if i \< len(sent)-1:
-word1 = sent[i+1]()[0]()
-postag1 = sent[i+1]()[1]()
-features.update({
-'+1:word.lower()': word1.lower(),
-'+1:word.istitle()': word1.istitle(),
-'+1:word.isupper()': word1.isupper(),
-'+1:postag': postag1,
-'+1:postag[:2]()': postag1[:2](),
-})
-else:
-features['EOS']() = True
+    if i < len(sent)-1:
+    word1 = sent[i+1][0]
+    postag1 = sent[i+1][1]
+    features.update({
+    '+1:word.lower()': word1.lower(),
+    '+1:word.istitle()': word1.istitle(),
+    '+1:word.isupper()': word1.isupper(),
+    '+1:postag': postag1,
+    '+1:postag[:2]': postag1[:2],
+    })
+    else:
+    features['EOS'] = True
 
 return features
 {% endhighlight %}
@@ -100,15 +102,15 @@ def feature_selector(word, feature_conf, conf_switch, postag):
     feature_dict = {  
         'bias': 1.0,  
         conf_switch + '_word.lower()': word.lower(),  
-        conf_switch + '_word[-3]()': word[-3:](),  
-        conf_switch + '_word[-2]()': word[-2:](),  
+        conf_switch + '_word[-3]': word[-3:],  
+        conf_switch + '_word[-2]': word[-2:],  
         conf_switch + '_word.isupper()': word.isupper(),  
         conf_switch + '_word.istitle()': word.istitle(),  
         conf_switch + '_word.isdigit()': word.isdigit(),  
         conf_switch + '_word.islower()': word.islower(),  
         conf_switch + '_postag': postag,  
     }  
-    return {i: feature\_dict.get(i) for i in feature_conf[conf_switch]() if i in feature_dict.keys()}
+    return {i: feature_dict.get(i) for i in feature_conf[conf_switch] if i in feature_dict.keys()}
 {% endhighlight %}
 
 Here is a sample yaml configuration file. ‘current’ and ‘previous’ are conf_switches.
@@ -116,8 +118,8 @@ Here is a sample yaml configuration file. ‘current’ and ‘previous’ are c
 current:  
   - bias  
   - current_word.lower()  
-  - current_word[-3]()  
-  - current_word[-2]()  
+  - current_word[-3]  
+  - current_word[-2]  
   - current_word.isupper()  
   - current_word.istitle()  
   - current_word.isdigit()  
@@ -134,21 +136,21 @@ Then we use another function to calculate the current token its neighbour’s fe
 
 {% highlight python %}
 def word2features(sent, i, feature_conf):  
-    word, postag, _, = sent[i]()  
+    word, postag, _, = sent[i]  
     features = feature_selector(word, feature_conf, 'current', postag)  
-    if i \> 0:  
-        word1, postag1, _,  = sent[i - 1]()  
+    if i > 0:  
+        word1, postag1, _,  = sent[i - 1]  
         features.update(  
             feature_selector(word1, feature_conf, 'previous', postag1))  
     else:  
-        features['BOS']() = True  
+        features['BOS'] = True  
   
-    if i \< len(sent) - 1:  
-        word1, postag1, _, = sent[i + 1]()  
+    if i < len(sent) - 1:  
+        word1, postag1, _, = sent[i + 1]  
         features.update(  
             feature_selector(word1, feature_conf, 'next', postag1))  
     else:  
-        features['EOS']() = True  
+        features['EOS'] = True  
     return features
 {% endhighlight %}
 
@@ -164,19 +166,19 @@ Function `add_one_features_list` adds features from a list file, and function `a
  {% highlight python %}
 
 def add_one_features_list(sent, feature_set):  
-    feature_list = ['1' if line\[0]() in feature_set else '0' for line in sent]  
-    return [(sent\[i]() + (feature_list[i](),)) for i in range(len(list(sent)))]  
+    feature_list = ['1' if line[0] in feature_set else '0' for line in sent]  
+    return [(sent[i] + (feature_list[i],)) for i in range(len(list(sent)))]  
   
   
 def add_one_feature_dict(sent, feature_dic):  
-    feature_list = [str(feature_dic.get(line\[0])) if line\[0] in feature_dic.keys() else '0' for line in sent]()  
-    return [(sent\[i]() + (feature_list[i](),)) for i in range(len(list(sent)))]  
+    feature_list = [str(feature_dic.get(line[0])) if line[0] in feature_dic.keys() else '0' for line in sent]  
+    return [(sent[i] + (feature_list[i],)) for i in range(len(list(sent)))]  
 {% endhighlight %}
 
 Please notice, both above functions use a special case of list/dict comprehension. Usually, we can only put `if` in a list/dict comprehension, but here, we add `if..., else...` condition in them. The order of this syntax is different from a comprehension only with an `if` condiction.
 
  {% highlight python %}
-['1' if line\[0]() in feature_set else '0' for line in sent]
+['1' if line[0] in feature_set else '0' for line in sent]
 {% endhighlight %}
 
 With these two function, we can easily add multiple external features at once.
@@ -188,10 +190,10 @@ The first function below extracts features of each token, while the second one e
 
  {% highlight python %}
 def sent2features(line, feature_conf):  
-    return [word2features(line, i, feature]()_conf) for i in range(len(line))]  
+    return [word2features(line, i, feature]_conf) for i in range(len(line))]  
   
 def sent2labels(line):  
-    return [i\[2]() for i in line]  # Use the right column  
+    return [i[2] for i in line]  # Use the right column  
 {% endhighlight %}
 
 ### Setting parameters of CRF algorithm
@@ -217,9 +219,9 @@ def test_crf_prediction(crf, X_test, y_test):
     y_pred = crf.predict(X_test)  
     result = metrics.flat_f1_score(y_test, y_pred, average='weighted', labels=labels)  
     details = metrics.flat_classification_report(y_test, y_pred, digits=3, labels=labels)  
-    result = metrics.flat_f1_score(y_test_converted, y_pred_converted, average='weighted', labels=['1']())  
+    result = metrics.flat_f1_score(y_test_converted, y_pred_converted, average='weighted', labels=['1'])  
   
-    details = [i for i in \[findall(RE_WORDS, i) for i in details.split('\n')]() if i != []()][1:-1]()  
+    details = [i for i in [findall(RE_WORDS, i) for i in details.split('\n')] if i != []][1:-1]  
     details = pd.DataFrame(details, columns=HEADER_CRF)  
     return result, details
 {% endhighlight %}
