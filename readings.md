@@ -6,6 +6,11 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20170417
+
+[_The Society of Mind_](http://book.douban.com/subject/1291194/)
+	Ch 8
+
 #### 20170412
 
 [_The Society of Mind_](http://book.douban.com/subject/1291194/)
