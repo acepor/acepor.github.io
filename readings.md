@@ -8,6 +8,13 @@ permalink: /readings/
 
 #### 20170417
 
+[_Sprint_](https://book.douban.com/subject/26732447/)
+
+	Preface, Introduction, Ch1, 2, 3
+
+[_The Society of Mind_](http://book.douban.com/subject/1291194/)
+	Ch 9
+
 [_The Society of Mind_](http://book.douban.com/subject/1291194/)
 	Ch 8
 
