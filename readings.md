@@ -6,6 +6,27 @@ permalink: /readings/
 <img class="emoji" title=":+1:" alt=":+1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44d.png" height="20" width="20" align="absmiddle"> indicates 'recommended', and
 <img class="emoji" title=":-1:" alt=":-1:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f44e.png" height="20" width="20" align="absmiddle"> indicates 'not recommended'.
 
+#### 20170425
+
+[_The Society of Mind_](http://book.douban.com/subject/1291194/)
+	Ch 10
+
+#### 20170424
+
+[_鏡頭背後的勇者_](https://book.douban.com/subject/26642273/)
+	Ch3
+
+#### 20170423
+
+[_鏡頭背後的勇者_](https://book.douban.com/subject/26642273/)
+	Ch1, 2
+
+#### 20170421
+
+[_Sprint_](https://book.douban.com/subject/26732447/)
+
+	Ch4, 5
+
 #### 20170417
 
 [_Sprint_](https://book.douban.com/subject/26732447/)
