@@ -1,6 +1,6 @@
 # Site settings
-title:       Dev Notes by acEpor
-name:       Dev Notes by acEpor
+title:       Another Dev Notes
+name:       Another Dev Notes
 email:
 author:      acEpor
 description: "Yet another blog about NLP, machine learning and programming"
@@ -32,7 +32,7 @@ enable_anchorjs: false
 # Facebook Page integration
 # (for instant articles and other stuff)
 fb_page: false
-fb_page_id: 
+fb_page_id:
 
 
 # Disqus post comments
