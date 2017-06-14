@@ -12,6 +12,10 @@ permalink: /dl/
 
 [Calculus on Computational Graphs: Backpropagation](https://colah.github.io/posts/2015-08-Backprop/)
 
+### Hardware Configuration
+
+[The $1700 great Deep Learning box: Assembly, setup and benchmarks](https://blog.slavv.com/the-1700-great-deep-learning-box-assembly-setup-and-benchmarks-148c5ebe6415)
+
 ## RNN
 
 ### Basics
