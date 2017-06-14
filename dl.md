@@ -4,13 +4,15 @@ title: Resources for Applying Deep Learning in NLP
 permalink: /dl/
 ---
 
-[Update me on Github](https://github.com/acepor/acepor.github.io/blob/master/ner.md)
+[Update me on Github](https://github.com/acepor/acepor.github.io/blob/master/dl.md)
 
 ## Deep Learning Basics
 
 ### Basics
 
-[Neural Networks, Manifolds, and Topology](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
+[Neural Networks, Manifolds, and Topology](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/) [Note](####1)
+
+
 
 [Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 
@@ -34,7 +36,7 @@ Recurrent Neural Networks Tutorial by [Denny Britz](http://www.wildml.com/about/
 
 2. [Implementing A Rnn With Python, Numpy And Theano](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)
 
-3. [Backpropagation Through Time And Vanishing Gradients](BACKPROPAGATION THROUGH TIME AND VANISHING GRADIENTS)
+3. [Backpropagation Through Time And Vanishing Gradients](http://www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/)
 
 4. [Implementing A Gru/Lstm Rnn With Python And Theano](http://www.wildml.com/2015/10/recurrent-neural-network-tutorial-part-4-implementing-a-grulstm-rnn-with-python-and-theano/)
 
@@ -62,4 +64,10 @@ Recurrent Neural Networks Tutorial by [Denny Britz](http://www.wildml.com/about/
 
 [Understanding Convolutional Neural Networks for NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
 
-[Implementing A Cnn For Text Classification In Tensorflow](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)
+[Implementing A Cnn For Text Classification In Tensorflow](http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/)    
+
+## Notes
+
+####1
+
+    It uses visualizations to explain the mechanics of how a low-dimensional deep neural network works, in order to provide a possible way to understand how a deeper network works.
