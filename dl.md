@@ -40,6 +40,8 @@ Recurrent Neural Networks Tutorial by [Denny Britz](http://www.wildml.com/about/
 
 [Attention and Augmented Recurrent Neural Networks](http://distill.pub/2016/augmented-rnns/)
 
+[The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+
 ### LSTM
 
 [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
@@ -50,7 +52,7 @@ Recurrent Neural Networks Tutorial by [Denny Britz](http://www.wildml.com/about/
 
 [A noob’s guide to implementing RNN-LSTM using Tensorflow](http://monik.in/a-noobs-guide-to-implementing-rnn-lstm-using-tensorflow/)
 
-[The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+[Written Memories: Understanding, Deriving and Extending the LSTM](https://r2rt.com/written-memories-understanding-deriving-and-extending-the-lstm.html)
 
 ## CNN
 
