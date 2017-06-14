@@ -12,8 +12,6 @@ permalink: /dl/
 
 [Neural Networks, Manifolds, and Topology](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/) [Note](####1)
 
-
-
 [Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 
 [Calculus on Computational Graphs: Backpropagation](https://colah.github.io/posts/2015-08-Backprop/)
@@ -68,6 +66,6 @@ Recurrent Neural Networks Tutorial by [Denny Britz](http://www.wildml.com/about/
 
 ## Notes
 
-####1
+#### 1
 
     It uses visualizations to explain the mechanics of how a low-dimensional deep neural network works, in order to provide a possible way to understand how a deeper network works.
