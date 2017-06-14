@@ -1,16 +1,22 @@
 ---
 layout: page
-title: Deep Learning Applications in NLP Resources
+title: Resources for Applying Deep Learning in NLP
 permalink: /dl/
 ---
 
+[Update me on Github](https://github.com/acepor/acepor.github.io/blob/master/ner.md)
+
 ## Deep Learning Basics
+
+### Basics
 
 [Neural Networks, Manifolds, and Topology](https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/)
 
 [Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/)
 
 [Calculus on Computational Graphs: Backpropagation](https://colah.github.io/posts/2015-08-Backprop/)
+
+[Hacker's guide to Neural Networks](https://karpathy.github.io/neuralnets/)
 
 ### Hardware Configuration
 
@@ -36,12 +42,15 @@ Recurrent Neural Networks Tutorial by [Denny Britz](http://www.wildml.com/about/
 
 ### LSTM
 
-[Understanding LSTM Networks
-](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+[Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
 [Rnns In Tensorflow, A Practical Guide And Undocumented Features](http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/)
 
 [Sequence Tagging with Tensorflow](https://guillaumegenthial.github.io/sequence-tagging-with-tensorflow.html)
+
+[A noob’s guide to implementing RNN-LSTM using Tensorflow](http://monik.in/a-noobs-guide-to-implementing-rnn-lstm-using-tensorflow/)
+
+[The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 
 ## CNN
 
