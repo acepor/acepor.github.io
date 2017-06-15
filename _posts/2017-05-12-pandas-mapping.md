@@ -22,3 +22,15 @@ def map_list_to_series(df, col, new_col, lst):
 {% endhighlight %}
 
 This is as fast as mapping a dictionary to a Series, well, apparently.
+
+Here is another usage case. We have a DF Series, we aim to do a conditional replacement. If the the condition is complicated, it is not easy to do such a replacement in pandas directly. Therefore, we can construct a dictionary to map the original and target patterns, then we use `map` to finish such job. This is way faster than using `pandas.Series.str.replace` or `pandas.Series.str.translate`.
+
+{% highlight python %}
+
+def merge_tags(df, col, tag):
+    tags = df[col].unique()
+    tag_dict = dict([(i, 'O') if not i.endswith(tag) else (i, i) for i in tags])
+    df[col] = df[col].map(tag_dict)
+    return df
+
+{% endhighlight %}
