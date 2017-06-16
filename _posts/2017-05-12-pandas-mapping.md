@@ -16,7 +16,7 @@ To bypass this problem, the best solution would be converting a list to a dict a
 
 def map_list_to_series(df, col, new_col, lst):
     dic = {i: i for i in lst}
-    df[new_col] = df[col].map(lst)
+    df[new_col] = df[col].map(dic)
     return df
 
 {% endhighlight %}
