@@ -22,6 +22,14 @@ permalink: /dl/
 
 [The $1700 great Deep Learning box: Assembly, setup and benchmarks](https://blog.slavv.com/the-1700-great-deep-learning-box-assembly-setup-and-benchmarks-148c5ebe6415)
 
+[My Deep Learning Dev Environment](http://upflow.co/l/8T69/blog/posts/post-2016-07-22/post.html)
+
+[Tensorflow Docker Image](https://hub.docker.com/r/tensorflow/tensorflow/)
+
+[Using TensorFlow via Docker](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/docker/README.md)
+
+[NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker)
+
 ## RNN
 
 ### Basics
