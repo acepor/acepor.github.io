@@ -43,6 +43,6 @@ Some aspects are worth paying attetion to:
 | 100,000   | 209.88       | 12.7     |
 | 200,000   | 312.15       | 12.5     |
 
-In our main task, we set `chunksize` as 200,000, and it took us less than 10 mins to process the 10G+ dataset.
+In our main task, we set `chunksize` as 200,000, and it used 211.22MiB memory to process the 10G+ dataset with 9min 54s.
 
 2. the `pandas.DataFrame.to_csv()` mode should be set as 'a' to append chunk results to a single file; otherwise, only the last chunk will be saved.
