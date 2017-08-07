@@ -18,7 +18,7 @@ Several Python libraries provide support to CRFsuite, including [python-crfsuite
 The `sklearn-crfsuite`’s tutorial can be found at [github][6]. It is easy to follow; nevertheless, the code quality cannot match production code quality, so we made a number of modifications.
 
 ### Feature format
-Based on [python-crfsuite][7], [sklearn-crfsuite][8] also uses dictionary as the default feature format. 
+Based on [python-crfsuite][7], [sklearn-crfsuite][8] also uses dictionary as the default feature format.
 
 {% highlight python %}
 
@@ -41,7 +41,7 @@ Based on [python-crfsuite][7], [sklearn-crfsuite][8] also uses dictionary as the
 
 Note, it does not support `pandas` DataFrame format as feature format.
 
-In the sklearn-crfsuite, it puts all features in a function, which is very difficult to config in the test environment. 
+In the sklearn-crfsuite, it puts all features in a function, which is very difficult to config in the test environment.
 
 {% highlight python %}
 def word2features(sent, i):
@@ -59,7 +59,7 @@ def word2features(sent, i):
     'postag': postag,
     'postag[:2]': postag[:2],  
     }
-    
+
     if i > 0:
     word1 = sent[i-1][0]
     postag1 = sent[i-1][1]
@@ -89,9 +89,9 @@ def word2features(sent, i):
 return features
 {% endhighlight %}
 
-To fix this problem, we split it into several individual functions. 
+To fix this problem, we split it into several individual functions.
 1. We use function `load_yaml_conf` to read the feature configuration from a yaml file;
-2. we use function `feature_selector` to convert the configuration to the feature dictionary. 
+2. we use function `feature_selector` to convert the configuration to the feature dictionary.
 
 {% highlight python %}
 def load_yaml_conf(conf_f):  
@@ -145,7 +145,7 @@ def word2features(sent, i, feature_conf):
             feature_selector(word1, feature_conf, 'previous', postag1))  
     else:  
         features['BOS'] = True  
-  
+
     if i < len(sent) - 1:  
         word1, postag1, _, = sent[i + 1]  
         features.update(  
@@ -159,7 +159,7 @@ In this way, users can easily change the feature set in the configuration withou
 
 ### Adding extra features
 
-One trick to boost the performance of CRF is to add extra feature dictionaries. 
+One trick to boost the performance of CRF is to add extra feature dictionaries.
 Say, if we want to label POS tags by using CRF, we can add an noun suffix dictionary, for example, ‘tion’ is a typical noun suffix. Therefore, we use several  functions to add features from external dictionaries. In this way, we can add features in the calculation instead of inputing all features from files. This is the most noticeable difference between CRFsuite and CRF++.
 
 Function `add_one_features_list` adds features from a list file, and function `add_one_features_dict` adds features from a key-value-pair file.
@@ -169,8 +169,8 @@ Function `add_one_features_list` adds features from a list file, and function `a
 def add_one_features_list(sent, feature_set):  
     feature_list = ['1' if line[0] in feature_set else '0' for line in sent]  
     return [(sent[i] + (feature_list[i],)) for i in range(len(list(sent)))]  
-  
-  
+
+
 def add_one_feature_dict(sent, feature_dic):  
     feature_list = [str(feature_dic.get(line[0])) if line[0] in feature_dic.keys() else '0' for line in sent]  
     return [(sent[i] + (feature_list[i],)) for i in range(len(list(sent)))]  
@@ -192,7 +192,7 @@ The first function below extracts features of each token, while the second one e
  {% highlight python %}
 def sent2features(line, feature_conf):  
     return [word2features(line, i, feature]_conf) for i in range(len(line))]  
-  
+
 def sent2labels(line):  
     return [i[2] for i in line]  # Use the right column  
 {% endhighlight %}
@@ -221,10 +221,77 @@ def test_crf_prediction(crf, X_test, y_test):
     result = metrics.flat_f1_score(y_test, y_pred, average='weighted', labels=labels)  
     details = metrics.flat_classification_report(y_test, y_pred, digits=3, labels=labels)  
     result = metrics.flat_f1_score(y_test_converted, y_pred_converted, average='weighted', labels=['1'])  
-  
+
     details = [i for i in [findall(RE_WORDS, i) for i in details.split('\n')] if i != []][1:-1]  
     details = pd.DataFrame(details, columns=HEADER_CRF)  
     return result, details
+{% endhighlight %}
+
+The above code is to evaluate the classification result at word level; however, to evaluate a sequence-labelling task, we need a more comprehensive method to evaluate at the sequence level. For example, when we have a NER task, we would like to understand how many entity sequences are accurately annotated. Therefore, we created a function to achieve this goal.
+
+{% highlight python %}
+
+RE_WORDS = re.compile(r"[\w\d\.-]+")
+HEADER_REPORT = ['Label', 'Precision', 'Recall', 'F1_score', 'Support']
+
+
+def extract_entity(ners_list):
+    ner_index = (i for i in range(len(ners_list)) if ners_list[i][1][0] == 'U' or ners_list[i][1][0] == 'L')
+    new_index = (a + b for a, b in enumerate(ner_index))
+    pred_copy = deepcopy(ners_list)
+    for i in new_index:
+        pred_copy[i + 1:i + 1] = [('##split', '##split')]
+    evaluate_list = [list(x[1]) for x in groupby(pred_copy, lambda x: x == ('##split', '##split'))]
+    return evaluate_list
+
+
+def cal_metrics(true_positive, all_positive, T):
+    """
+    compute overall precision, recall and f_score (default values are 0.0)
+    """
+    precision = true_positive / all_positive if all_positive else 0
+    recall = true_positive / T if T else 0
+    f_score = 2 * precision * recall / (precision + recall) if precision + recall else 0
+    return round(precision, 4), round(recall, 4), round(f_score, 4)
+
+
+def evaluate_ner_result(y_pred, y_test):
+    """
+    :param y_pred: [y_pred]
+    :param y_test: [y_test]
+    :return: {}
+    """
+    flattern_pred = [i for j in y_pred for i in j]
+    flattern_test = [i for j in y_test for i in j]
+    test_ners = [i for i in enumerate(flattern_test) if i[1] != 'O']
+    pred_ners = [i for i in enumerate(flattern_pred) if i[1] != 'O']
+    both_ners = [i for i in zip(flattern_pred, flattern_test) if i[1] != 'O']
+    indexed_ner = [(a, (b, c)) for ((a, b), c) in zip(enumerate(flattern_pred), flattern_test) if b != 'O' or c != 'O']
+
+    evaluate_list = extract_entity(both_ners)
+    test_entities = extract_entity(test_ners)
+    pred_entities = extract_entity(pred_ners)
+
+    true_positive_list = [ner_can for ner_can in evaluate_list if
+                          len([(a, b) for a, b in ner_can if a == b]) == len(ner_can) and ner_can != [
+                              ('##split', '##split')]]
+
+    test_total = [ner_can for ner_can in test_entities if ner_can != [('##split', '##split')]]
+    pred_total = [ner_can for ner_can in pred_entities if ner_can != [('##split', '##split')]]
+
+    true_positive_result = Counter(i[0][0].split('-')[1] for i in true_positive_list)
+
+    relevant_elements = Counter(i[0][1].split('-')[1] for i in test_total)
+    selected_elements = Counter(i[0][1].split('-')[1] for i in pred_total)
+
+    final_result = {k: cal_metrics(true_positive_result[k], v, selected_elements[k]) + (v,) for (k, v) in
+                    relevant_elements.items()}
+    total_result = cal_metrics(sum(true_positive_result.values()), sum(relevant_elements.values()),
+                               sum(selected_elements.values()))
+    final_result.update({'Total': total_result + (sum(relevant_elements.values()),)})
+    output = pd.DataFrame(final_result).T.reset_index()
+    output.columns = HEADER_REPORT
+    return output, indexed_ner
 {% endhighlight %}
 
 ## Final thought
