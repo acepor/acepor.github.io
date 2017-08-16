@@ -1,9 +1,9 @@
 ---
 layout: post
-title: A Strange Problem caused by indexing in pandas.read_csv
+title: A Strange Problem Caused by Indexing in pandas.read_csv
 tags: [Python, Pandas, Data Structure]
 ---
-Yesterday, we encountered a very strange bug caused by the indexing mechanism in `pandas.read_csv` function
+Yesterday, we encountered a very strange bug caused by the indexing mechanism in `pandas.read_csv` function.
 
 Due to the huge data size, we used `pandas` to process data, but a very strange phenomenon occurred. The pseudo code looks like this:
 
@@ -39,9 +39,9 @@ for chunk in reader:
 
 {% endhighlight %}
 
-Strangely, this strategy worked, but this was very awkward to us. In this way, the `result` will hold every single line of the whole file, instead of every line in each chunk, which means that the size of `result` is not equivalent to `chunk`, so how can we concatenate them together? We were really confused.
+Strangely, this strategy worked, but this was very awkward to us. In this way, the `result` would hold every single line of the whole file, instead of every line in each chunk, which means that the size of `result` is not equivalent to `chunk`, so how can we concatenate them together? We were really confused.
 
-When we tracked the index of each chunk, we found that they are not individual. We supposed that each chunk would start the index from 0, but in reality, it is NOT. The index of each chunk is a subset of the whole CSV in this situation, so their index derives from the CSV. This is what caused the problem. In the above example, the `pandas.to_csv` writes only the result of the first chunk, instead of the last chunk.
+When we tracked the index of each chunk, we found that they are not individual. We supposed that each chunk would start the index from 0, but in reality, it is NOT. The index of each chunk is a subset of the whole CSV in this situation, so their index derives from the CSV. This is what caused the problem. In our initial logic, the `pandas.to_csv` writes only the result of the first chunk, instead of the last chunk.
 
 Therefore, a better solution would be rebuild index for each chunk, and concatenating it with result.
 
