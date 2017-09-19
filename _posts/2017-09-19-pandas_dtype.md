@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why shall we always set dtype when we use Pandas?
+title: Why shall We Always Set dtype When We Use Pandas?
 tags: [Python, Pandas, Data Structure]
 ---
 
