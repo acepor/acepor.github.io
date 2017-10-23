@@ -1,5 +1,11 @@
-# Notes of QCon Shanghai 2017
+---
+layout: post
+title: Notes of QCon Shanghai 2017
+tags: [Conference]
+---
+
 ## General thoughts
+
 
 1. If a simple algorithm can solve the problem, do we need a more complex algorithm to implement it?
 2. Most companies use multiple models to solve a single problem.
@@ -69,7 +75,7 @@ Readings:
 
 **Theme: Risk Management by Using AI**
 
-**Takeaway: A single problem might need multiple models and rules** 
+**Takeaway: A single problem might need multiple models and rules**
 
 Risk management has no dimension limit, no volume limit for AI.
 
@@ -149,7 +155,7 @@ New features:
   6. New Input Pipeline
 	1. input pipeline = lazy lists
 	2. map + filter
-	3. tf.data 
+	3. tf.data
 	  1. Dataset \> functional programming
 	  2. Iterator \> sequential input
 
@@ -173,7 +179,7 @@ Reinforcement learning for device placement
 
 **Theme: Homefeed Recommendation in Pinterest**
 
-**Takeaway:** 
+**Takeaway:**
 
   1. Feature engineering may bring higher returns than applying new models.
   2. Iterate models / features is a possible way to increase performance.
@@ -197,8 +203,8 @@ Workflow:
 	2. logistic regressions
 	  1. LR
 	  2. SVM (sofia-ml)
-	  3. feature engineering 
-		1. the best feature may increase 4% relevance, 
+	  3. feature engineering
+		1. the best feature may increase 4% relevance,
 		2. age is not a useful feature in this case
 	  4. GBDT
 		1. use with ensambling model
@@ -261,7 +267,7 @@ Optimization of decision table in gradient boosting
 1. backfitting:
 	1. cyclic (recommended)
 	2. random (recommended)
-	3. greedy (biggest gain, but slow)	
+	3. greedy (biggest gain, but slow)
  2. speed up scoring
 	1. avoid repeated tests
 	2. sort the table by values
@@ -285,7 +291,7 @@ Readings:
 
 **Theme: Helix and Nuage**
 
-**Takeaway:** 
+**Takeaway:**
 
   1. Easy-to-use and operatibility should be planned in advance.
   2. Applying algorithms in engineering is a new trend.
@@ -352,7 +358,7 @@ Architecture
 Angel API
 
 1. simplify writing procedure
-2. a unifier API 
+2. a unifier API
 	1. vector (inherit from Spark: Breeze PS, Cached PS)
 	2. MLLib in Spark is based on Breeze
 	3. easy to migrate to Angel
@@ -366,7 +372,7 @@ Angel API
 
 1. Refactoring to micro-service is an option.
 2. Consider about data structure when doing refactoring.
-3. Micro-service has different gratitude, choose accordingly. 
+3. Micro-service has different gratitude, choose accordingly.
 
 The proper team size in Amazon is about the number that can share two pizzas.
 
@@ -383,7 +389,7 @@ Auto-scaling is not at run time, because it needs time to load.
 Moving to server less
 
 1. benchmark everything
-2. functions should be stateless 
+2. functions should be stateless
 3. user [AWS Step Functions][4]
 4. be careful with FAAS (function as a service)
 5. keep it natural
