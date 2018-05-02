@@ -4,6 +4,10 @@ title: Digests of Paul Grahams' posts
 tags: [Digest, Paul_Graham]
 ---
 
+
+
+--
+
 ## Default Alive or Default Dead?
 
 Address: [Default Alive or Default Dead?](http://paulgraham.com/aord.html)
