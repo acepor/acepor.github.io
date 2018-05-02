@@ -4,6 +4,26 @@ title: Digests of Aaron Swartz' posts
 tags: [Digest, Paul_Graham]
 ---
 
+## Believe You Can Change
+
+Aaron explained two types of mindsets in this post: growth mindset and fixed mindset. People with growth mindset love challenges, and can adapt to them.
+
+> The successful kids didn’t just live with failure, they loved it!
+
+> The successful kids believed precisely the opposite: that everything came through effort and that the world was full of interesting challenges that could help you learn and grow. (Dweck called this the “**growth mindset**.”)
+
+By pointing out the mistakes or asking for helps, people can grow from there.
+
+> But what I usually do is raise my hand, because if I’m wrong, then my mistake will be corrected. Or I will raise my hand and say… ‘I don’t get this. Can you help me?’ Just by doing that I’m increasing my intelligence.”
+
+> growth-mindset people feel smart when they struggle with something for a long time and then finally figure it out.
+
+> Growthers are afraid of not trying.
+
+Changing the attitude to a growth mindset is very important.
+
+> The first step to getting better is believing you can get better.
+
 ## Cherish Mistakes
 
 In this post, Aaron indicated that mistake are our friends, as 
