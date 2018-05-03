@@ -4,6 +4,21 @@ title: Digests of Aaron Swartz' posts
 tags: [Digest, Paul_Graham]
 ---
 
+## Confront Reality
+
+Aaron argues that picking a really hard goal regardless of the reality is useless as picking a really easy goal.
+
+> But being great isn’t as easy as just picking a hard goal — in fact, picking a really hard goal avoids reality almost as much as picking a really easy one.
+
+However, setting a number of small goals is a better choice.
+
+> The trick is to set yourself lots of small challenges along the way.
+> Instead of pushing all your tests for success way off to the indefinite future, see if you can pass a very small one right now.
+
+The most important thing is to execute right away.
+
+> Go out and test yourself today: pick a task just hard enough that you might fail, and try to succeed at it.
+
 ## Believe You Can Change
 
 Aaron explained two types of mindsets in this post: growth mindset and fixed mindset. People with growth mindset love challenges, and can adapt to them.
