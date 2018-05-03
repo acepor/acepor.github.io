@@ -4,6 +4,28 @@ title: Digests of Aaron Swartz' posts
 tags: [Digest, Paul_Graham]
 ---
 
+## Lean into the Pain
+
+In this post, Aaron argues that pain is a must needed process of growth, and frequently small pains are more helpful than painful.
+
+> Indeed, we come to see the pain as a sort of pleasure — it feels good to really push yourself, to fight through the pain and make yourself stronger.
+
+> The problem is that the topics that are most painful also tend to be the topics that are most important for us: they’re the projects we most want to do, the relationships we care most about, the decisions that have the biggest consequences for our future, the most dangerous risks that we run.
+
+Pains exist in both physically and mentally. Naturally, they are indicators of limits.
+
+> Nature gave us pain as a messaging device to tell us that we are approaching, or that we have exceeded, our limits in some way.
+
+Having an open attitude to pains is helpful.
+
+> Yes it’s painful, but the trick is to make that mental shift. To realize that the pain isn’t something awful to be postponed and avoided, but a signal that you’re getting stronger — something to savor and enjoy.
+
+> If instead of thinking of it as a scary subject to avoid, I think of it as an exciting opportunity to get better, then it’s no longer a cost-benefit tradeoff at all: both sides are a benefit — I get the benefits of being good at selling and the fun of getting better at something.
+
+> The trick is: when you start feeling that psychological pain coming on, don’t draw back from it and cower — lean into it. Lean into the pain.
+
+> Next time you start feeling that feeling, that sense of pain from deep in your head that tells you to avoid a subject ignore it. Lean into the pain instead. You’ll be glad you did.
+
 ## Confront Reality
 
 Aaron argues that picking a really hard goal regardless of the reality is useless as picking a really easy goal.
