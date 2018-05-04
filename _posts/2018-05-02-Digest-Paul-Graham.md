@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Digests of Paul Grahams' posts
+title: Digests of Paul Graham's posts
 tags: [Digest, Paul_Graham]
 ---
 

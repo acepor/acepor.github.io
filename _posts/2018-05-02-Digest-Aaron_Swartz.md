@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Digests of Aaron Swartz' posts
+title: Digests of Aaron Swartz's posts
 tags: [Digest, Paul_Graham]
 ---
 
