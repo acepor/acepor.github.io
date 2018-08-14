@@ -1,10 +1,8 @@
 ---
 layout: post
-title: A Brief Introduction to building RNN with CRF in Tensorflow
-tags: [NLP, deep_learning, algorithm]
+title: Review of The Lean Startup
+tags: [startup, review]
 ---
-
-## The limitation of CRF
 
 ## Why is lean startup?
 
