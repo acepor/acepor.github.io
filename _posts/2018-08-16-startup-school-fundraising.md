@@ -130,12 +130,21 @@ To startups, fundraising could be a catalyst, but also could be a heroin. Raisin
 ## References
 
 [A Fundraising Survival Guide](www.paulgraham.com/fundraising.html)
+
 [A Guide to Seed Fundraising](https://blog.ycombinator.com/how-to-raise-a-seed-round)
+
 [Dilution](https://blog.ycombinator.com/dilution/)
+
 [How to Fund a Startup](http://paulgraham.com/startupfunding.html)
+
 [How to Raise Money](http://paulgraham.com/fr.html)
+
 [Process and Leverage in Fundraising](https://blog.ycombinator.com/process-and-leverage-in-fundraising/)
+
 [Startup = Growth](http://www.paulgraham.com/growth.html)
+
 [The Hacker's Guide to Investors](http://paulgraham.com/guidetoinvestors.html)
+
 [The Hardest Lessons for Startups to Learn](http://paulgraham.com/startuplessons.html)
+
 [Why VCs sometimes push companies to burn too fast](https://blog.ycombinator.com/why-vcs-sometimes-push-companies-to-burn-too-fast)
