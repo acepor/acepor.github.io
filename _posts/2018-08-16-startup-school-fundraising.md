@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Review of The Lean Startup
-tags: [startup, review]
+title: About Fundraising
+tags: [startup]
 ---
 
 When people talk about startups, one term always appears -- fundraising. It seems that fundraising is a must to startups, and indeed it is. In [The Hacker's Guide to Investors](http://paulgraham.com/guidetoinvestors.html), Paul Graham mentioned that:
