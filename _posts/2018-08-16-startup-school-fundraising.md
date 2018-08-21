@@ -10,7 +10,7 @@ When people talk about startups, one term always appears -- fundraising. It seem
 
 Yes, Basecamp (fomally 37Signal) by Jason Fried and DHH is a bootstrap startup without outside funds, but this kind of company is among rare cases. The majority of startups needs fundraising.
 
-There are many myths about fundraising, for exmaple, raising funds indicates successes of a statup. Only after reading Startup School articles, have I gained some basic knowledge about fundraising.
+There are many myths about fundraising, for example, raising funds indicates successes of a statup. Only after reading Startup School articles, have I gained some basic knowledge about fundraising.
 
 ## What is fundraising?
 
