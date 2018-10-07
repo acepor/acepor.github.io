@@ -7,6 +7,7 @@ description: "Yet another blog about NLP, machine learning and programming"
 baseurl:     ""
 url:         "http://acepor.github.io"
 date_format: "%b %-d, %Y"
+remote_theme: johno/pixyll
 
 # Google services
 
