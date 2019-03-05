@@ -10,7 +10,7 @@ Recently, we received a 10G+ dataset, and tried to use `pandas` to preprocess it
 
 {% highlight python %}
 
-def preprocess_patetnt(in_f, out_f):
+def preprocess_patent(in_f, out_f):
     df = pd.read_table(in_f, sep='##')
     df.columns = ['id0', 'id1', 'ref']
     result = chunk[(df.ref.str.contains('^[a-zA-Z]+')) & (df.ref.str.len() > 80)]
