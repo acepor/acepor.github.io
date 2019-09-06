@@ -23,11 +23,19 @@ OK, if you don't think it's complicated, then there is another trap.
 
 When you use `read_csv` to read a dataset withe dirty records, you will encounter an error like this:
 
-> ParserError: Error tokenizing data. C error: Expected 18 fields in line 2443440, saw 19
+{% highlight python %}
+
+ParserError: Error tokenizing data. C error: Expected 18 fields in line 2443440, saw 19
+
+{% endhighlight %}
 
 If you put this number as an input to `skiprows`, congratulations, you will get the same error again.
 
-> ParserError: Error tokenizing data. C error: Expected 18 fields in line 2443440, saw 19
+{% highlight python %}
+
+ParserError: Error tokenizing data. C error: Expected 18 fields in line 2443440, saw 19
+
+{% endhighlight %}
 
 Actully, `skiprows` is indexed from 0, so you need put the row number n-1 as the input:
 
